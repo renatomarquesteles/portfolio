@@ -1,5 +1,7 @@
 import { Metadata } from 'next'
 
+import { Header } from './components/Header'
+
 export const metadata: Metadata = {
   title: "Home | Renato's Portfolio",
 }
@@ -7,7 +9,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <h1>Hello World</h1>
+      <Header />
     </>
   )
 }
