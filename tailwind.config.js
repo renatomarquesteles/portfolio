@@ -18,9 +18,11 @@ module.exports = {
         500: '#805ad5',
         600: '#6B46C1',
       },
-      lightgray: '#525252',
-      gray: '#1a202c',
-      darkgray: '#202023',
+      gray: {
+        400: '#525252',
+        900: '#202023',
+      },
+      slate: '#1a202c',
     },
     extend: {
       fontFamily: {

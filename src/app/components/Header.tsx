@@ -15,12 +15,12 @@ export function Header() {
             <div className="rotate-[-30deg] transition-transform group-hover:rotate-0">
               <PiCubeFill size={25} color="#1a202c" />
             </div>
-            <span className="font-extrabold text-base text-gray tracking-tighter leading-none">
+            <span className="font-extrabold text-base text-slate tracking-tighter leading-none">
               Renato Marques Teles
             </span>
           </Link>
 
-          <nav className="h-full p-2 gap-2 text-gray hidden sm:flex">
+          <nav className="h-full p-2 gap-2 text-slate hidden sm:flex">
             <Link
               href="/projects"
               className="h-full p-2 flex items-center hover:underline underline-offset-4"
@@ -30,7 +30,7 @@ export function Header() {
             <a
               href="github.com/renatomarquesteles/portfolio"
               target="_blank"
-              className="h-full text- p-2 flex items-center gap-1 [&>svg]:fill-gray hover:underline underline-offset-4"
+              className="h-full text- p-2 flex items-center gap-1 [&>svg]:fill-slate hover:underline underline-offset-4"
             >
               <PiGithubLogoFill size={16} />
               Source
@@ -47,7 +47,7 @@ export function Header() {
           </button>
           <button
             type="button"
-            className="w-10 h-10 rounded-md flex items-center justify-center border-beige border-2 [&>svg]:fill-gray sm:hidden"
+            className="w-10 h-10 rounded-md flex items-center justify-center border-beige border-2 [&>svg]:fill-slate sm:hidden"
           >
             <PiList size={16} />
           </button>

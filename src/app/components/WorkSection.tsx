@@ -4,10 +4,10 @@ import { PiCaretRightBold } from 'react-icons/pi'
 export function WorkSection() {
   return (
     <section>
-      <h2 className="my-4 font-bold text-xl underline underline-offset-[6px] decoration-4 decoration-lightgray text-darkgray text-opacity-90 font-m-plus-rounded-1c">
+      <h2 className="my-4 font-bold text-xl underline underline-offset-[6px] decoration-4 decoration-gray-400 text-slate text-opacity-90 font-m-plus-rounded-1c">
         Work
       </h2>
-      <p className="my-4 text-darkgray text-opacity-90">
+      <p className="my-4 text-slate text-opacity-90">
         I&apos;m a front-end developer passionate about building beautiful and
         responsive interfaces and amazing user experiences. I&apos;ve worked
         with various clients and collaborated with cross-functional teams to
