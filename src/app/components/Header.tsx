@@ -9,7 +9,7 @@ import {
 export function Header() {
   return (
     <header className="w-full h-16 bg-white bg-opacity-25 flex justify-center">
-      <div className="w-full max-w-4xl px-4 flex justify-between items-center">
+      <div className="w-full max-w-3xl px-4 flex justify-between items-center">
         <div className="h-full flex items-center gap-5">
           <Link href="/" className="flex items-center gap-1 group p-3">
             <div className="rotate-[-30deg] transition-transform group-hover:rotate-0">

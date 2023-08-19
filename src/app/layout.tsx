@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, M_PLUS_Rounded_1c } from 'next/font/google'
 
 import '../styles/global.css'
 
@@ -18,13 +18,23 @@ const inter = Inter({
   variable: '--font-inter',
 })
 
+const mPlusRounded1c = M_PLUS_Rounded_1c({
+  weight: '800',
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-m-plus-rounded-1c',
+})
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} dark`}>
+    <html
+      lang="en"
+      className={`${inter.variable} ${mPlusRounded1c.variable} dark`}
+    >
       <body className="bg-beige">{children}</body>
     </html>
   )
