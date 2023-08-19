@@ -3,6 +3,7 @@ import { FaLinkedin } from 'react-icons/fa'
 import Image from 'next/image'
 
 import thumbnailImg from '../../assets/youtube-thumbnail.png'
+import { CopyEmailToClipboardButton } from './CopyEmailToClipboardButton'
 
 export function SocialsSection() {
   return (
@@ -28,13 +29,17 @@ export function SocialsSection() {
           <FaLinkedin size={16} />
           /in/renato-marques-teles
         </a>
-        <a
-          href="mailto:renatomarquesteles@gmail.com"
-          className="w-fit py-3 px-4 flex items-center gap-2 text-teal-700 rounded-md font-semibold transition-colors hover:bg-teal-50"
-        >
-          <PiEnvelope size={16} />
-          renatomarquesteles@gmail.com
-        </a>
+
+        <div className="flex gap-3 items-center">
+          <a
+            href="mailto:renatomarquesteles@gmail.com"
+            className="w-fit py-3 px-4 flex items-center gap-2 text-teal-700 rounded-md font-semibold transition-colors hover:bg-teal-50"
+          >
+            <PiEnvelope size={16} />
+            renatomarquesteles@gmail.com
+          </a>
+          <CopyEmailToClipboardButton />
+        </div>
       </div>
 
       <div className="w-full my-2 flex justify-center">
