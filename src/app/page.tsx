@@ -4,6 +4,7 @@ import { Header } from './components/Header'
 import { InfoSection } from './components/InfoSection'
 import { WorkSection } from './components/WorkSection'
 import { BioSection } from './components/BioSection'
+import { InterestsSection } from './components/InterestsSection'
 
 export const metadata: Metadata = {
   title: "Home | Renato's Portfolio",
@@ -18,6 +19,7 @@ export default function Home() {
         <InfoSection />
         <WorkSection />
         <BioSection />
+        <InterestsSection />
       </main>
     </>
   )
