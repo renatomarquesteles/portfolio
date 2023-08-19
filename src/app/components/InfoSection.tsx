@@ -13,7 +13,7 @@ export function InfoSection() {
 
       <div className="flex justify-between flex-wrap gap-3">
         <div className="text-darkgray text-opacity-90">
-          <h1 className="font-extrabold text-[34px] font-m-plus-rounded-1c tracking-tighter">
+          <h1 className="font-bold text-[34px] font-m-plus-rounded-1c tracking-tighter">
             Renato Marques Teles
           </h1>
           <p className="text-sm">

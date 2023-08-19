@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 
 import { Header } from './components/Header'
 import { InfoSection } from './components/InfoSection'
+import { WorkSection } from './components/WorkSection'
 
 export const metadata: Metadata = {
   title: "Home | Renato's Portfolio",
@@ -14,6 +15,7 @@ export default function Home() {
 
       <main className="w-full max-w-lg mx-auto my-0">
         <InfoSection />
+        <WorkSection />
       </main>
     </>
   )

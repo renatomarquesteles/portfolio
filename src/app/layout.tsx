@@ -19,7 +19,7 @@ const inter = Inter({
 })
 
 const mPlusRounded1c = M_PLUS_Rounded_1c({
-  weight: '800',
+  weight: ['700', '800'],
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-m-plus-rounded-1c',
