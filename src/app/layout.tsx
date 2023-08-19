@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter, M_PLUS_Rounded_1c } from 'next/font/google'
+import { Inter, M_PLUS_Rounded_1c, Open_Sans } from 'next/font/google'
 
 import '../styles/global.css'
 
@@ -25,6 +25,13 @@ const mPlusRounded1c = M_PLUS_Rounded_1c({
   variable: '--font-m-plus-rounded-1c',
 })
 
+const openSans = Open_Sans({
+  weight: ['400', '600'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-open-sans',
+})
+
 export default function RootLayout({
   children,
 }: {
@@ -33,7 +40,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${mPlusRounded1c.variable} dark`}
+      className={`${inter.variable} ${mPlusRounded1c.variable} ${openSans.variable} dark`}
     >
       <body className="bg-beige">{children}</body>
     </html>

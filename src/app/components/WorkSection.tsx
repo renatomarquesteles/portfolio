@@ -15,6 +15,7 @@ export function WorkSection() {
         and deploy the interface of a credit card related platform for{' '}
         <a
           href="https://vexpenses.com.br/en-US"
+          target="_blank"
           className="text-blue underline-offset-4 hover:underline"
         >
           VExpenses
@@ -22,7 +23,8 @@ export function WorkSection() {
         , a startup focused on managing corporate expense reimbursements. Also,
         my{' '}
         <a
-          href="github.com/renatomarquesteles"
+          href="https://www.github.com/renatomarquesteles"
+          target="_blank"
           className="text-blue underline-offset-4 hover:underline"
         >
           GitHub

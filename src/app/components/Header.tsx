@@ -28,7 +28,7 @@ export function Header() {
               Projects
             </Link>
             <a
-              href="github.com/renatomarquesteles/portfolio"
+              href="https://www.github.com/renatomarquesteles/portfolio"
               target="_blank"
               className="h-full text- p-2 flex items-center gap-1 [&>svg]:fill-slate hover:underline underline-offset-4"
             >

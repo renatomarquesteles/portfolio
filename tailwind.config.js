@@ -7,6 +7,7 @@ module.exports = {
       beige: '#f0e7db',
       yellow: '#fbd38d',
       teal: {
+        50: '#e6fffa',
         200: '#88ccca',
         300: '#81e6d9',
         700: '#319795',
@@ -26,8 +27,9 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ['var(--font-inter)'],
+        sans: ['var(--font-inter)', 'sans-serif'],
         'm-plus-rounded-1c': ['var(--font-m-plus-rounded-1c)', 'sans-serif'],
+        'open-sans': ['var(--font-open-sans)', 'sans-serif'],
       },
     },
   },
