@@ -2,10 +2,10 @@ import { PiEnvelope, PiGithubLogoFill } from 'react-icons/pi'
 import { FaLinkedin } from 'react-icons/fa'
 import Image from 'next/image'
 
-import thumbnailImg from '../../assets/youtube-thumbnail.png'
-import { CopyEmailToClipboardButton } from './CopyEmailToClipboardButton'
+import thumbnailImg from '@/assets/youtube-thumbnail.png'
+import { CopyEmailToClipboardButton } from '@/components/copy-email-to-clipboard-button'
 
-export function SocialsSection() {
+export function Socials() {
   return (
     <section className="mb-6">
       <h2 className="my-4 font-bold text-xl underline underline-offset-[6px] decoration-4 decoration-gray-400 text-slate text-opacity-90 font-m-plus-rounded-1c">

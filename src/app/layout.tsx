@@ -1,9 +1,9 @@
+import '../styles/global.css'
+
 import type { Metadata } from 'next'
 import { Inter, M_PLUS_Rounded_1c, Open_Sans } from 'next/font/google'
 
-import '../styles/global.css'
-
-import { Header } from './components/Header'
+import { Header } from '@/components/header'
 
 export const metadata: Metadata = {
   title: {

@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
-import avatarImg from '../../assets/avatar.png'
+import avatarImg from '@/assets/avatar.png'
 
-export function InfoSection() {
+export function Info() {
   return (
     <header className="my-8 px-8 md:px-0">
       <div className="bg-white bg-opacity-30 my-6 p-3 rounded-lg">
