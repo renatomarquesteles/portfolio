@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="w-full max-w-lg mx-auto my-0">
+    <main className="w-full max-w-lg mx-auto my-0 px-4 sm:px-0">
       <Info />
       <Work />
       <Bio />
