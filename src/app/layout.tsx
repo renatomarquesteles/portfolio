@@ -47,7 +47,7 @@ export default function RootLayout({
       <body className="bg-beige">
         <Header />
 
-        {children}
+        <div className="px-4 sm:px-0">{children}</div>
 
         <footer className="w-full flex justify-center py-6 px-3">
           <p className="text-slate text-opacity-60 text-xs">

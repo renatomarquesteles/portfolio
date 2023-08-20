@@ -13,7 +13,7 @@ export function ProfessionalWorks() {
         <a
           href="https://vexpenses.com.br/en-US/cartao-corporativo-e-cartao-empresarial"
           target="_blank"
-          className="w-fit flex flex-col items-center text-slate text-opacity-90"
+          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit"
         >
           <Image
             src={vexCardsImg}
@@ -21,10 +21,10 @@ export function ProfessionalWorks() {
             width={240}
             height={130}
             quality={100}
-            className="rounded-xl mb-2"
+            className="w-full rounded-xl mb-2 sm:w-[240px]"
           />
 
-          <div className="max-w-[240px] text-center">
+          <div className="w-full text-center sm:max-w-[240px]">
             <h3 className="text-lg">VExpenses Cards</h3>
             <p className="text-sm">
               A credit card services platform for a startup focused on managing
@@ -36,7 +36,7 @@ export function ProfessionalWorks() {
         <a
           href="https://focused-snyder-cf8a6e.netlify.app/"
           target="_blank"
-          className="w-fit flex flex-col items-center text-slate text-opacity-90"
+          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit"
         >
           <Image
             src={vexUIImg}
@@ -44,10 +44,10 @@ export function ProfessionalWorks() {
             width={240}
             height={130}
             quality={100}
-            className="rounded-xl mb-2"
+            className="w-full rounded-xl mb-2 sm:w-[240px]"
           />
 
-          <div className="max-w-[240px] text-center">
+          <div className="w-full text-center sm:max-w-[240px]">
             <h3 className="text-lg">VExpenses UI</h3>
             <p className="text-sm">
               A React UI components library following the VExpenses Design

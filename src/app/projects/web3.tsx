@@ -15,7 +15,7 @@ export function Web3() {
         <a
           href="https://twitter.com/GodsgameNFT/status/1511346299504836620"
           target="_blank"
-          className="w-fit flex flex-col items-center text-slate text-opacity-90"
+          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit"
         >
           <Image
             src={paperhandsImg}
@@ -23,10 +23,10 @@ export function Web3() {
             width={240}
             height={130}
             quality={100}
-            className="rounded-xl mb-2"
+            className="w-full rounded-xl mb-2 sm:w-[240px]"
           />
 
-          <div className="max-w-[240px] text-center">
+          <div className="w-full text-center sm:max-w-[240px]">
             <h3 className="text-lg">Paperhands Tracker</h3>
             <p className="text-sm">
               A blockchain contract transaction tracker that checks for
@@ -38,7 +38,7 @@ export function Web3() {
         <a
           href="https://anubis-rush.netlify.app/"
           target="_blank"
-          className="w-fit flex flex-col items-center text-slate text-opacity-90"
+          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit"
         >
           <Image
             src={anubisRushImg}
@@ -46,10 +46,10 @@ export function Web3() {
             width={240}
             height={130}
             quality={100}
-            className="rounded-xl mb-2"
+            className="w-full rounded-xl mb-2 sm:w-[240px]"
           />
 
-          <div className="max-w-[240px] text-center">
+          <div className="w-full text-center sm:max-w-[240px]">
             <h3 className="text-lg">Anubis Rush</h3>
             <p className="text-sm">
               Game developed for the Game Jam competition at the GodsGame NFT
@@ -61,7 +61,7 @@ export function Web3() {
         <a
           href="https://github.com/renatomarquesteles/hold-your-crypto"
           target="_blank"
-          className="w-fit flex flex-col items-center text-slate text-opacity-90"
+          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit"
         >
           <Image
             src={hycImg}
@@ -69,10 +69,10 @@ export function Web3() {
             width={240}
             height={130}
             quality={100}
-            className="rounded-xl mb-2"
+            className="w-full rounded-xl mb-2 sm:w-[240px]"
           />
 
-          <div className="max-w-[240px] text-center">
+          <div className="w-full text-center sm:max-w-[240px]">
             <h3 className="text-lg">Hold Your Crypto</h3>
             <p className="text-sm">
               Mobile App that helps people keep track of their crypto
@@ -84,7 +84,7 @@ export function Web3() {
         <a
           href="https://github.com/renatomarquesteles/web3-cryptwitter/"
           target="_blank"
-          className="w-fit flex flex-col items-center text-slate text-opacity-90"
+          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit"
         >
           <Image
             src={cryptwitterImg}
@@ -92,10 +92,10 @@ export function Web3() {
             width={240}
             height={130}
             quality={100}
-            className="rounded-xl mb-2"
+            className="w-full rounded-xl mb-2 sm:w-[240px]"
           />
 
-          <div className="max-w-[240px] text-center">
+          <div className="w-full text-center sm:max-w-[240px]">
             <h3 className="text-lg">CrypTwitter</h3>
             <p className="text-sm">
               Web3 version of Twitter&quot;s timeline, on the blockchain.

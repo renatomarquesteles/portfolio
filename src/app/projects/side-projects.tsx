@@ -15,7 +15,7 @@ export function SideProjects() {
         <a
           href="https://cheerful-hotteok-38b9a0.netlify.app"
           target="_blank"
-          className="w-fit flex flex-col items-center text-slate text-opacity-90"
+          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit"
         >
           <Image
             src={coffeDeliveryImg}
@@ -23,10 +23,10 @@ export function SideProjects() {
             width={240}
             height={130}
             quality={100}
-            className="rounded-xl mb-2"
+            className="w-full rounded-xl mb-2 sm:w-[240px]"
           />
 
-          <div className="max-w-[240px] text-center">
+          <div className="w-full text-center sm:max-w-[240px]">
             <h3 className="text-lg">Coffee Delivery</h3>
             <p className="text-sm">
               A coffee shop delivery from the products list to the checkout and
@@ -38,7 +38,7 @@ export function SideProjects() {
         <a
           href="https://github.com/renatomarquesteles/ignite-04-ignite-shop"
           target="_blank"
-          className="w-fit flex flex-col items-center text-slate text-opacity-90"
+          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit"
         >
           <Image
             src={igniteShopImg}
@@ -46,10 +46,10 @@ export function SideProjects() {
             width={240}
             height={130}
             quality={100}
-            className="rounded-xl mb-2"
+            className="w-full rounded-xl mb-2 sm:w-[240px]"
           />
 
-          <div className="max-w-[240px] text-center">
+          <div className="w-full text-center sm:max-w-[240px]">
             <h3 className="text-lg">Ignite Shop</h3>
             <p className="text-sm">
               A t-shirts e-commerce integrated with Stripe.
@@ -60,7 +60,7 @@ export function SideProjects() {
         <a
           href="https://renatomarquesteles.github.io/ignite-05-rmt-ignite-ui/"
           target="_blank"
-          className="w-fit flex flex-col items-center text-slate text-opacity-90"
+          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit"
         >
           <Image
             src={igniteUIImg}
@@ -68,10 +68,10 @@ export function SideProjects() {
             width={240}
             height={130}
             quality={100}
-            className="rounded-xl mb-2"
+            className="w-full rounded-xl mb-2 sm:w-[240px]"
           />
 
-          <div className="max-w-[240px] text-center">
+          <div className="w-full text-center sm:max-w-[240px]">
             <h3 className="text-lg">Ignite UI</h3>
             <p className="text-sm">
               Design System packages built and release on NPM to be installed
@@ -83,7 +83,7 @@ export function SideProjects() {
         <a
           href="https://github.com/renatomarquesteles/ignite-03-dt-money"
           target="_blank"
-          className="w-fit flex flex-col items-center text-slate text-opacity-90"
+          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit"
         >
           <Image
             src={dtMoneyImg}
@@ -91,10 +91,10 @@ export function SideProjects() {
             width={240}
             height={130}
             quality={100}
-            className="rounded-xl mb-2"
+            className="w-full rounded-xl mb-2 sm:w-[240px]"
           />
 
-          <div className="max-w-[240px] text-center">
+          <div className="w-full text-center sm:max-w-[240px]">
             <h3 className="text-lg">DT Money</h3>
             <p className="text-sm">A personal transactions tracker system.</p>
           </div>
