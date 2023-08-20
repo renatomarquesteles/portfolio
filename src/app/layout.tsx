@@ -3,6 +3,8 @@ import { Inter, M_PLUS_Rounded_1c, Open_Sans } from 'next/font/google'
 
 import '../styles/global.css'
 
+import { Header } from './components/Header'
+
 export const metadata: Metadata = {
   title: {
     template: "%s | Renato's Portfolio",
@@ -42,7 +44,17 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${mPlusRounded1c.variable} ${openSans.variable} dark`}
     >
-      <body className="bg-beige">{children}</body>
+      <body className="bg-beige">
+        <Header />
+
+        {children}
+
+        <footer className="w-full flex justify-center py-6 px-3">
+          <p className="text-slate text-opacity-60 text-xs">
+            © 2023 Renato Marques Teles. All Rights Reserved.
+          </p>
+        </footer>
+      </body>
     </html>
   )
 }
