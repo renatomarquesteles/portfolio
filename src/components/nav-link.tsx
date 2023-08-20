@@ -10,8 +10,6 @@ interface NavLinkProps extends LinkProps {
 
 export function NavLink({ children, href, ...rest }: NavLinkProps) {
   const pathname = usePathname()
-  console.log({ pathname })
-  console.log({ href })
 
   return (
     <Link
