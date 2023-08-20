@@ -9,7 +9,7 @@ import { NavLink } from './nav-link'
 
 export function Header() {
   return (
-    <header className="w-full h-16 bg-white bg-opacity-25 flex justify-center">
+    <header className="w-full h-16 bg-white bg-opacity-25 flex justify-center fixed top-0 z-50 backdrop-blur-md">
       <div className="w-full max-w-3xl px-4 flex justify-between items-center">
         <div className="h-full flex items-center gap-5">
           <Link href="/" className="flex items-center gap-1 group p-3">
