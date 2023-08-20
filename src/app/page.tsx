@@ -25,6 +25,12 @@ export default function Home() {
         <SocialsSection />
         <ContactSection />
       </main>
+
+      <footer className="w-full flex justify-center py-6 px-3">
+        <p className="text-slate text-opacity-60 text-xs">
+          © 2023 Renato Marques Teles. All Rights Reserved.
+        </p>
+      </footer>
     </>
   )
 }
