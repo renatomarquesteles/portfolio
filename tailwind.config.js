@@ -20,10 +20,12 @@ module.exports = {
         600: '#6B46C1',
       },
       gray: {
+        200: '#e2e8f0',
         400: '#525252',
         900: '#202023',
       },
       slate: '#1a202c',
+      shadow: 'rgba(0, 0, 0, 0.3)',
     },
     extend: {
       fontFamily: {

@@ -1,11 +1,8 @@
 import Link from 'next/link'
-import {
-  PiMoonFill,
-  PiCubeFill,
-  PiGithubLogoFill,
-  PiList,
-} from 'react-icons/pi'
+import { PiMoonFill, PiCubeFill, PiGithubLogoFill } from 'react-icons/pi'
+
 import { NavLink } from './nav-link'
+import { DropdownMenu } from './dropdown-menu'
 
 export function Header() {
   return (
@@ -41,12 +38,7 @@ export function Header() {
           >
             <PiMoonFill size={16} color="#fff" />
           </button>
-          <button
-            type="button"
-            className="w-10 h-10 rounded-md flex items-center justify-center border-beige border-2 [&>svg]:fill-slate sm:hidden"
-          >
-            <PiList size={16} />
-          </button>
+          <DropdownMenu />
         </div>
       </div>
     </header>
