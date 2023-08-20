@@ -5,6 +5,7 @@ import {
   PiGithubLogoFill,
   PiList,
 } from 'react-icons/pi'
+import { NavLink } from './nav-link'
 
 export function Header() {
   return (
@@ -21,12 +22,7 @@ export function Header() {
           </Link>
 
           <nav className="h-full p-2 gap-2 text-slate hidden sm:flex">
-            <Link
-              href="/projects"
-              className="h-full p-2 flex items-center hover:underline underline-offset-4"
-            >
-              Projects
-            </Link>
+            <NavLink href="/projects">Projects</NavLink>
             <a
               href="https://www.github.com/renatomarquesteles/portfolio"
               target="_blank"
