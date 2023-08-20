@@ -1,9 +1,9 @@
+import { SectionTitle } from '@/components/section-title'
+
 export function Bio() {
   return (
     <section className="mb-6">
-      <h2 className="my-4 font-bold text-xl underline underline-offset-[6px] decoration-4 decoration-gray-400 text-slate text-opacity-90 font-m-plus-rounded-1c">
-        Bio
-      </h2>
+      <SectionTitle>Bio</SectionTitle>
 
       <p className="flex gap-4">
         <span className="font-bold text-slate text-opacity-90">1995</span>

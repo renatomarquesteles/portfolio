@@ -4,13 +4,12 @@ import Image from 'next/image'
 
 import thumbnailImg from '@/assets/youtube-thumbnail.png'
 import { CopyEmailToClipboardButton } from '@/components/copy-email-to-clipboard-button'
+import { SectionTitle } from '@/components/section-title'
 
 export function Socials() {
   return (
     <section className="mb-6">
-      <h2 className="my-4 font-bold text-xl underline underline-offset-[6px] decoration-4 decoration-gray-400 text-slate text-opacity-90 font-m-plus-rounded-1c">
-        My socials
-      </h2>
+      <SectionTitle>My socials</SectionTitle>
 
       <div className="font-open-sans">
         <a

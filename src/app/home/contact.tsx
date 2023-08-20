@@ -1,12 +1,13 @@
 import { BsEnvelopeFill } from 'react-icons/bs'
 import { PiWhatsappLogoFill } from 'react-icons/pi'
 
+import { SectionTitle } from '@/components/section-title'
+
 export function Contact() {
   return (
     <section className="mb-6">
-      <h2 className="my-4 font-bold text-xl underline underline-offset-[6px] decoration-4 decoration-gray-400 text-slate text-opacity-90 font-m-plus-rounded-1c">
-        Contact
-      </h2>
+      <SectionTitle>Contact</SectionTitle>
+
       <p className="text-slate text-opacity-90">
         Feel free to get in touch with me.
       </p>

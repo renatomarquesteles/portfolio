@@ -1,12 +1,13 @@
 import Link from 'next/link'
 import { PiCaretRightBold } from 'react-icons/pi'
 
+import { SectionTitle } from '@/components/section-title'
+
 export function Work() {
   return (
     <section className="mb-6">
-      <h2 className="my-4 font-bold text-xl underline underline-offset-[6px] decoration-4 decoration-gray-400 text-slate text-opacity-90 font-m-plus-rounded-1c">
-        Work
-      </h2>
+      <SectionTitle>Work</SectionTitle>
+
       <p className="my-4 text-slate text-opacity-90">
         I&apos;m a front-end developer passionate about building beautiful and
         responsive interfaces and amazing user experiences. I&apos;ve worked
