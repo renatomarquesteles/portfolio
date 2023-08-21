@@ -1,6 +1,11 @@
+import { Metadata } from 'next'
 import { ProfessionalWorks } from './professional-works'
 import { SideProjects } from './side-projects'
 import { Web3 } from './web3'
+
+export const metadata: Metadata = {
+  title: 'Projects',
+}
 
 export default function Projects() {
   return (
