@@ -11,3 +11,5 @@
 `npm i react-icons`
 
 `npm i @radix-ui/react-dropdown-menu`
+
+`npm i framer-motion`
