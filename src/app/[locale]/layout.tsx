@@ -1,9 +1,12 @@
-import '../styles/global.css'
+import '@/styles/global.css'
 
 import type { Metadata } from 'next'
 import { Inter, M_PLUS_Rounded_1c, Open_Sans } from 'next/font/google'
+import { NextIntlClientProvider } from 'next-intl'
+import { notFound } from 'next/navigation'
 
 import { Header } from '@/components/header'
+import { Footer } from './footer'
 
 export const metadata: Metadata = {
   title: {
@@ -34,26 +37,35 @@ const openSans = Open_Sans({
   variable: '--font-open-sans',
 })
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params: { locale },
 }: {
   children: React.ReactNode
+  params: {
+    locale: string
+  }
 }) {
+  let messages
+  try {
+    messages = (await import(`../../translations/${locale}.json`)).default
+  } catch (error) {
+    notFound()
+  }
+
   return (
     <html
-      lang="en"
+      lang={locale}
       className={`${inter.variable} ${mPlusRounded1c.variable} ${openSans.variable} dark`}
     >
       <body className="bg-beige">
-        <Header />
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <Header />
 
-        <div className="px-4 pt-16 sm:px-0">{children}</div>
+          <div className="px-4 pt-16 sm:px-0">{children}</div>
 
-        <footer className="w-full flex justify-center py-6 px-3">
-          <p className="text-slate text-opacity-60 text-xs">
-            © 2023 Renato Marques Teles. All Rights Reserved.
-          </p>
-        </footer>
+          <Footer />
+        </NextIntlClientProvider>
       </body>
     </html>
   )

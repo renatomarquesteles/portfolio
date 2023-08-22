@@ -1,0 +1,10 @@
+{
+  "Layout": {
+    "footer": "© 2023 Renato Marques Teles. All Rights Reserved."
+  },
+  "Info": {
+    "hello": "Hello, I'm a frontend developer based in Brazil!",
+    "profession": "Software Engineer",
+    "avatarAlt": "Picture of the author"
+  }
+}

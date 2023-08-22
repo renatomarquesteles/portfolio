@@ -13,3 +13,5 @@
 `npm i @radix-ui/react-dropdown-menu`
 
 `npm i framer-motion`
+
+`npm install next-intl@3.0.0-beta.10`

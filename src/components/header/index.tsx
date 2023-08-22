@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import IntlLink from 'next-intl/link'
 import { PiMoonFill, PiCubeFill, PiGithubLogoFill } from 'react-icons/pi'
 
 import { NavLink } from './nav-link'
@@ -32,6 +33,12 @@ export function Header() {
         </div>
 
         <div className="flex items-center gap-4">
+          <IntlLink locale="en" href="/">
+            Switch to English
+          </IntlLink>
+          <IntlLink locale="pt-BR" href="/">
+            Switch to Portuguese
+          </IntlLink>
           <button
             type="button"
             className="w-10 h-10 rounded-md bg-purple-500 flex items-center justify-center transition-colors hover:bg-purple-600"

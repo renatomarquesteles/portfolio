@@ -1,18 +1,19 @@
 'use client'
 
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
 import avatarImg from '@/assets/avatar.png'
 import { MotionDiv } from '@/components/motion-div'
 
 export function Info() {
+  const t = useTranslations('Info')
+
   return (
     <header className="my-8 px-8 md:px-0">
       <MotionDiv delay={0.1}>
         <div className="bg-white bg-opacity-30 my-6 p-3 rounded-lg">
-          <p className="text-center text-slate">
-            Hello, I&apos;m a front-end developer based in Brazil!
-          </p>
+          <p className="text-center text-slate">{t('hello')}</p>
         </div>
 
         <div className="flex justify-between flex-wrap gap-3">
@@ -21,7 +22,7 @@ export function Info() {
               Renato Marques Teles
             </h1>
             <p className="text-sm">
-              Software Engineer{' '}
+              {t('profession')}{' '}
               <span className="whitespace-nowrap">
                 ( React / JavaScript / Next.js )
               </span>
@@ -30,7 +31,7 @@ export function Info() {
 
           <Image
             src={avatarImg}
-            alt="Picture of the author"
+            alt={t('avatarAlt')}
             width={100}
             height={100}
             className="w-[100px] h-[100px] rounded-full border-2 border-white border-opacity-80"
