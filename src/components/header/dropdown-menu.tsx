@@ -1,6 +1,7 @@
 'use client'
 
 import * as RadixDropdown from '@radix-ui/react-dropdown-menu'
+import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { PiList } from 'react-icons/pi'
@@ -15,32 +16,39 @@ export function DropdownMenu() {
       </RadixDropdown.Trigger>
 
       <RadixDropdown.Portal>
-        <RadixDropdown.Content className="bg-white py-2 mt-4 mx-2 z-50 rounded-md w-56 shadow-sm shadow-shadow">
-          <Link href="/">
-            <RadixDropdown.Item
-              className={`py-3 px-4 text-slate text-opacity-90 ${
-                pathname === '/' && 'bg-gray-200 bg-opacity-50'
-              }`}
-            >
-              About
-            </RadixDropdown.Item>
-          </Link>
+        <RadixDropdown.Content>
+          <motion.div
+            initial={{ x: 112, y: -80, scale: 0, opacity: 0 }}
+            animate={{ x: 0, y: 0, scale: 1, opacity: 1 }}
+            transition={{ duration: 0.3, delay: 0 }}
+            className="bg-white py-2 mt-4 mx-2 z-50 rounded-md w-56 shadow-sm shadow-shadow"
+          >
+            <Link href="/">
+              <RadixDropdown.Item
+                className={`py-3 px-4 text-slate text-opacity-90 ${
+                  pathname === '/' && 'bg-gray-200 bg-opacity-50'
+                }`}
+              >
+                About
+              </RadixDropdown.Item>
+            </Link>
 
-          <Link href="/projects">
-            <RadixDropdown.Item
-              className={`py-3 px-4 text-slate text-opacity-90 ${
-                pathname === '/projects' && 'bg-gray-200 bg-opacity-50'
-              }`}
-            >
-              Projects
-            </RadixDropdown.Item>
-          </Link>
+            <Link href="/projects">
+              <RadixDropdown.Item
+                className={`py-3 px-4 text-slate text-opacity-90 ${
+                  pathname === '/projects' && 'bg-gray-200 bg-opacity-50'
+                }`}
+              >
+                Projects
+              </RadixDropdown.Item>
+            </Link>
 
-          <a href="https://www.github.com/renatomarquesteles/portfolio">
-            <RadixDropdown.Item className="py-3 px-4 text-slate text-opacity-90">
-              View Source
-            </RadixDropdown.Item>
-          </a>
+            <a href="https://www.github.com/renatomarquesteles/portfolio">
+              <RadixDropdown.Item className="py-3 px-4 text-slate text-opacity-90">
+                View Source
+              </RadixDropdown.Item>
+            </a>
+          </motion.div>
         </RadixDropdown.Content>
       </RadixDropdown.Portal>
     </RadixDropdown.Root>
