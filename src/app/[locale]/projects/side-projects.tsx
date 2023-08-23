@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
 import coffeDeliveryImg from '@/assets/coffee-delivery.png'
 import dtMoneyImg from '@/assets/dt-money.png'
@@ -10,10 +11,12 @@ import { SectionTitle } from '@/components/section-title'
 import { MotionDiv } from '@/components/motion-div'
 
 export function SideProjects() {
+  const t = useTranslations('SideProjects')
+
   return (
     <section>
       <MotionDiv delay={0.2}>
-        <SectionTitle>Side-projects</SectionTitle>
+        <SectionTitle>{t('title')}</SectionTitle>
       </MotionDiv>
 
       <div className="w-full my-6 flex justify-center gap-8 flex-wrap">
@@ -25,7 +28,7 @@ export function SideProjects() {
           <MotionDiv delay={0.3}>
             <Image
               src={coffeDeliveryImg}
-              alt="A black and white cup written Coffe Delivery and coffee seeds around it"
+              alt={t('coffeeAlt')}
               width={240}
               height={130}
               quality={100}
@@ -33,11 +36,8 @@ export function SideProjects() {
             />
 
             <div className="w-full text-center sm:max-w-[240px]">
-              <h3 className="text-lg">Coffee Delivery</h3>
-              <p className="text-sm">
-                A coffee shop delivery from the products list to the checkout
-                and success pages.
-              </p>
+              <h3 className="text-lg">{t('coffee')}</h3>
+              <p className="text-sm">{t('coffeeDescription')}</p>
             </div>
           </MotionDiv>
         </a>
@@ -50,7 +50,7 @@ export function SideProjects() {
           <MotionDiv delay={0.3}>
             <Image
               src={igniteShopImg}
-              alt={`4 different black t-shirts and it's written "order completed!"`}
+              alt={t('igniteShopAlt')}
               width={240}
               height={130}
               quality={100}
@@ -58,10 +58,8 @@ export function SideProjects() {
             />
 
             <div className="w-full text-center sm:max-w-[240px]">
-              <h3 className="text-lg">Ignite Shop</h3>
-              <p className="text-sm">
-                A t-shirts e-commerce integrated with Stripe.
-              </p>
+              <h3 className="text-lg">{t('igniteShop')}</h3>
+              <p className="text-sm">{t('igniteShopDescription')}</p>
             </div>
           </MotionDiv>
         </a>
@@ -74,7 +72,7 @@ export function SideProjects() {
           <MotionDiv delay={0.4}>
             <Image
               src={igniteUIImg}
-              alt='The Storybook logo with a search input under it written "Find components"'
+              alt={t('igniteUIAlt')}
               width={240}
               height={130}
               quality={100}
@@ -82,11 +80,8 @@ export function SideProjects() {
             />
 
             <div className="w-full text-center sm:max-w-[240px]">
-              <h3 className="text-lg">Ignite UI</h3>
-              <p className="text-sm">
-                Design System packages built and release on NPM to be installed
-                and used in other projects.
-              </p>
+              <h3 className="text-lg">{t('igniteUI')}</h3>
+              <p className="text-sm">{t('igniteUIDescription')}</p>
             </div>
           </MotionDiv>
         </a>
@@ -99,7 +94,7 @@ export function SideProjects() {
           <MotionDiv delay={0.4}>
             <Image
               src={dtMoneyImg}
-              alt="A dark UI dashboard with a list of money transactions"
+              alt={t('dtMoneyAlt')}
               width={240}
               height={130}
               quality={100}
@@ -107,8 +102,8 @@ export function SideProjects() {
             />
 
             <div className="w-full text-center sm:max-w-[240px]">
-              <h3 className="text-lg">DT Money</h3>
-              <p className="text-sm">A personal transactions tracker system.</p>
+              <h3 className="text-lg">{t('dtMoney')}</h3>
+              <p className="text-sm">{t('dtMoneyDescription')}</p>
             </div>
           </MotionDiv>
         </a>

@@ -2,19 +2,20 @@
 
 import { BsEnvelopeFill } from 'react-icons/bs'
 import { PiWhatsappLogoFill } from 'react-icons/pi'
+import { useTranslations } from 'next-intl'
 
 import { SectionTitle } from '@/components/section-title'
 import { MotionDiv } from '@/components/motion-div'
 
 export function Contact() {
+  const t = useTranslations('Contact')
+
   return (
     <section className="mb-6">
       <MotionDiv delay={0.6}>
-        <SectionTitle>Contact</SectionTitle>
+        <SectionTitle>{t('title')}</SectionTitle>
 
-        <p className="text-slate text-opacity-90">
-          Feel free to get in touch with me.
-        </p>
+        <p className="text-slate text-opacity-90">{t('description')}</p>
 
         <div className="w-fit mx-auto">
           <a
@@ -22,7 +23,7 @@ export function Contact() {
             className="w-full my-4 mx-auto py-[10px] px-5 rounded-md bg-teal-700 text-white flex items-center gap-3 font-semibold transition-colors hover:bg-teal-800"
           >
             <BsEnvelopeFill size={16} />
-            Send an email
+            {t('emailButton')}
           </a>
           <a
             href="https://wa.me/5516992921771"
@@ -30,7 +31,7 @@ export function Contact() {
             className="w-fit my-4 mx-auto py-[10px] px-5 rounded-md bg-teal-700 text-white flex items-center gap-3 font-semibold transition-colors hover:bg-teal-800"
           >
             <PiWhatsappLogoFill size={16} />
-            Chat via WhatsApp
+            {t('whatsappButton')}
           </a>
         </div>
       </MotionDiv>

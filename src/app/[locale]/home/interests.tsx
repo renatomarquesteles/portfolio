@@ -1,17 +1,20 @@
 'use client'
 
+import { useTranslations } from 'next-intl'
+
 import { MotionDiv } from '@/components/motion-div'
 import { SectionTitle } from '@/components/section-title'
 
 export function Interests() {
+  const t = useTranslations('Interests')
+
   return (
     <section className="mb-6">
       <MotionDiv delay={0.4}>
-        <SectionTitle>I ♥</SectionTitle>
+        <SectionTitle>{t('title')}</SectionTitle>
 
         <p className="indent-4 text-slate text-opacity-90">
-          When I&apos;m not coding, I like to hang out with my friends, go to
-          the gym, play soccer, watch TV shows and movies, and play video games.
+          {t('description')}
         </p>
       </MotionDiv>
     </section>

@@ -2,9 +2,87 @@
   "Layout": {
     "footer": "© 2023 Renato Marques Teles. All Rights Reserved."
   },
+  "Header": {
+    "projects": "Projects",
+    "source": "Source",
+    "about": "About",
+    "viewSource": "View Source"
+  },
   "Info": {
     "hello": "Hello, I'm a frontend developer based in Brazil!",
     "profession": "Software Engineer",
     "avatarAlt": "Picture of the author"
+  },
+  "Work": {
+    "title": "Work",
+    "description": "I'm a front-end developer passionate about building beautiful and responsive interfaces and amazing user experiences. I've worked with various clients and collaborated with cross-functional teams to deliver successful projects. My last big project was to fully develop and deploy the interface of a credit card related platform for <vexLink>VExpenses</vexLink>, a startup focused on managing corporate expense reimbursements. Also, my <ghLink>GitHub</ghLink> profile contains more than 99 repositories of side projects I have built along the way.",
+    "button": "My portfolio"
+  },
+  "Bio": {
+    "title": "Bio",
+    "born": "Born in Franca (SP), Brazil.",
+    "smn": "Worked at SMN IT.",
+    "gostack": "Completed the GoStack bootcamp program by Rocketseat.",
+    "vexpenses": "Worked at VExpenses.",
+    "unifacef": "Completed a Bachelor's degree in Software Engineering at Franca's Municipal University Center (Uni-FACEF).",
+    "ignite": "Completed the Ignite React bootcamp program by Rocketseat.",
+    "freelance": "Working as a freelancer",
+    "toPresent": "to present"
+  },
+  "Interests": {
+    "title": "I ♥",
+    "description": "When I'm not coding, I like to hang out with my friends, go to the gym, play soccer, watch TV shows and movies, and play video games."
+  },
+  "Socials": {
+    "title": "My socials",
+    "copy": "COPY",
+    "copied": "COPIED!",
+    "thumbnailAlt": "A YouTube thumbnail written \"Renato Marques, a software engineer\"",
+    "youtubeDescription": "My YouTube channel (>2k views)"
+  },
+  "Contact": {
+    "title": "Contact",
+    "description": "Feel free to get in touch with me.",
+    "emailButton": "Send an email",
+    "whatsappButton": "Chat via Whatsapp"
+  },
+  "Professional": {
+    "title": "Professional Works",
+    "vexCards": "VExpenses Cards",
+    "vexCardsAlt": "Two blue credit cards crossing each other, showing their front and back sides",
+    "vexCardsDescription": "A credit card services platform for a startup focused on managing corporate expense reimbursement.",
+    "vexUI": "VExpenses UI",
+    "vexUIAlt": "The VExpenses logo with a search input under it written \"Find components\"",
+    "vexUIDescription": "A React UI components library following the VExpenses Design System."
+  },
+  "SideProjects": {
+    "title": "Side-projects",
+    "coffee": "Coffee Delivery",
+    "coffeeAlt": "A black and white cup written Coffe Delivery and coffee seeds around it",
+    "coffeeDescription": "A coffee shop delivery from the products list to the checkout and success pages.",
+    "igniteShop": "Ignite Shop",
+    "igniteShopAlt": "4 different black t-shirts and it's written \"order completed!\"",
+    "igniteShopDescription": "A t-shirts e-commerce integrated with Stripe.",
+    "igniteUI": "Ignite UI",
+    "igniteUIAlt": "The Storybook logo with a search input under it written \"Find components\"",
+    "igniteUIDescription": "Design System packages built and release on NPM to be installed and used in other projects.",
+    "dtMoney": "DT Money",
+    "dtMoneyAlt": "A dark UI dashboard with a list of money transactions",
+    "dtMoneyDescription": "A personal transactions tracker system."
+  },
+  "Web3": {
+    "title": "On the Web 3.0",
+    "paperhands": "Paperhands Tracker",
+    "paperhandsAlt": "A dark background with a yellow glowing eye written \"Paperhands Tracker\" under it",
+    "paperhandsDescription": "A blockchain contract transaction tracker that checks for \"paperhands\".",
+    "anubis": "Anubis Rush",
+    "anubisAlt": "A 3D typography written \"Anubis Rush\" in purple and yellow with a dark purple background",
+    "anubisDescription": "Game developed for the Game Jam competition at the GodsGame NFT community.",
+    "hyc": "Hold Your Crypto",
+    "hycAlt": "A purple background with a white \"H\" as the logo and it's written \"Hold Your Crypto\" in white under the logo",
+    "hycDescription": "Mobile App that helps people keep track of their crypto investments.",
+    "cryptwitter": "CrypTwitter",
+    "cryptwitterAlt": "A white background written \"CrypTwitter\" in black and a blue button with a fox icon and it's written \"Connect with MetaMask\"",
+    "cryptwitterDescription": "Web3 version of Twitter's timeline, on the blockchain."
   }
 }

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
 import IntlLink from 'next-intl/link'
 import { PiMoonFill, PiCubeFill, PiGithubLogoFill } from 'react-icons/pi'
 
@@ -6,6 +7,8 @@ import { NavLink } from './nav-link'
 import { DropdownMenu } from './dropdown-menu'
 
 export function Header() {
+  const t = useTranslations('Header')
+
   return (
     <header className="w-full h-16 bg-white bg-opacity-25 flex justify-center fixed top-0 z-50 backdrop-blur-md">
       <div className="w-full max-w-3xl px-4 flex justify-between items-center">
@@ -20,14 +23,14 @@ export function Header() {
           </Link>
 
           <nav className="h-full p-2 gap-2 text-slate hidden sm:flex">
-            <NavLink href="/projects">Projects</NavLink>
+            <NavLink href="/projects">{t('projects')}</NavLink>
             <a
               href="https://www.github.com/renatomarquesteles/portfolio"
               target="_blank"
               className="h-full text- p-2 flex items-center gap-1 [&>svg]:fill-slate hover:underline underline-offset-4"
             >
               <PiGithubLogoFill size={16} />
-              Source
+              {t('source')}
             </a>
           </nav>
         </div>

@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
 import vexCardsImg from '@/assets/vex-cards.png'
 import vexUIImg from '@/assets/vex-ui.png'
@@ -8,9 +9,11 @@ import { SectionTitle } from '@/components/section-title'
 import { MotionDiv } from '@/components/motion-div'
 
 export function ProfessionalWorks() {
+  const t = useTranslations('Professional')
+
   return (
     <section>
-      <SectionTitle>Professional Works</SectionTitle>
+      <SectionTitle>{t('title')}</SectionTitle>
 
       <MotionDiv>
         <div className="w-full my-6 flex justify-center gap-8 flex-wrap">
@@ -21,7 +24,7 @@ export function ProfessionalWorks() {
           >
             <Image
               src={vexCardsImg}
-              alt="Two blue credit cards crossing each other, showing their front and back sides"
+              alt={t('vexCardsAlt')}
               width={240}
               height={130}
               quality={100}
@@ -29,11 +32,8 @@ export function ProfessionalWorks() {
             />
 
             <div className="w-full text-center sm:max-w-[240px]">
-              <h3 className="text-lg">VExpenses Cards</h3>
-              <p className="text-sm">
-                A credit card services platform for a startup focused on
-                managing corporate expense reimbursement.
-              </p>
+              <h3 className="text-lg">{t('vexCards')}</h3>
+              <p className="text-sm">{t('vexCardsDescription')}</p>
             </div>
           </a>
 
@@ -44,7 +44,7 @@ export function ProfessionalWorks() {
           >
             <Image
               src={vexUIImg}
-              alt='The VExpenses logo with a search input under it written "Find components"'
+              alt={t('vexUIAlt')}
               width={240}
               height={130}
               quality={100}
@@ -52,11 +52,8 @@ export function ProfessionalWorks() {
             />
 
             <div className="w-full text-center sm:max-w-[240px]">
-              <h3 className="text-lg">VExpenses UI</h3>
-              <p className="text-sm">
-                A React UI components library following the VExpenses Design
-                System.
-              </p>
+              <h3 className="text-lg">{t('vexUI')}</h3>
+              <p className="text-sm">{t('vexUIDescription')}</p>
             </div>
           </a>
         </div>

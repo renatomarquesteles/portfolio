@@ -3,6 +3,7 @@
 import { PiEnvelope, PiGithubLogoFill } from 'react-icons/pi'
 import { FaLinkedin } from 'react-icons/fa'
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
 import thumbnailImg from '@/assets/youtube-thumbnail.png'
 import { CopyEmailToClipboardButton } from '@/components/copy-email-to-clipboard-button'
@@ -10,10 +11,12 @@ import { SectionTitle } from '@/components/section-title'
 import { MotionDiv } from '@/components/motion-div'
 
 export function Socials() {
+  const t = useTranslations('Socials')
+
   return (
     <section className="mb-6">
       <MotionDiv delay={0.5}>
-        <SectionTitle>My socials</SectionTitle>
+        <SectionTitle>{t('title')}</SectionTitle>
 
         <div className="font-open-sans">
           <a
@@ -53,14 +56,14 @@ export function Socials() {
           >
             <Image
               src={thumbnailImg}
-              alt='A YouTube thumbnail written "Renato Marques, a software engineer"'
+              alt={t('thumbnailAlt')}
               width={240}
               height={130}
               className="rounded-xl mb-2"
             />
 
             <h3 className="text-base">Renato Marques Teles</h3>
-            <p className="text-sm">My YouTube channel (&gt;2k views)</p>
+            <p className="text-sm">{t('youtubeDescription')}</p>
           </a>
         </div>
       </MotionDiv>

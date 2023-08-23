@@ -2,7 +2,87 @@
   "Layout": {
     "footer": "© 2023 Renato Marques Teles. Todos os direitos reservados."
   },
+  "Header": {
+    "projects": "Projetos",
+    "source": "Código-fonte",
+    "about": "Sobre",
+    "viewSource": "Ver Código-fonte"
+  },
   "Info": {
-    "hello": "Olá, sou um dev front-end morando no Brasil!"
+    "hello": "Olá, sou um dev front-end morando no Brasil!",
+    "profession": "Dev Front-end",
+    "avatarAlt": "Foto do autor"
+  },
+  "Work": {
+    "title": "Sobre",
+    "description": "Sou um desenvolvedor front-end fascinado por criar interfaces belas e responsivas e experiências de usuário incríveis. Trabalhei com diversos clientes e colaborei com times multifuncionais para entregar projetos de sucesso. Meu último grande projeto foi desenvolver e publicar a interface de uma plataforma relacionada à cartões de crédito para o <vexLink>VExpenses</vexLink>, uma startup focada no gerenciamento de reembolsos de despesas corporativas. Além disso, no meu perfil no <ghLink>GitHub</ghLink> há mais de 99 repositórios de side-projects que eu desenvolvi durante a carreira.",
+    "button": "Meu portfólio"
+  },
+  "Bio": {
+    "title": "Bio",
+    "born": "Nascido em Franca (SP), Brasil.",
+    "smn": "Trabalhei na SMN Tecnologia da Informação.",
+    "gostack": "Completei o bootcamp GoStack da Rocketseat.",
+    "vexpenses": "Trabalhei no VExpenses.",
+    "unifacef": "Completei a graduação em Engenharia de Software no Centro Universitário Municipal de Franca (Uni-FACEF).",
+    "ignite": "Completei o bootcamp Ignite React da Rocketseat.",
+    "freelance": "Trabalhando como freelancer",
+    "toPresent": "até o momento"
+  },
+  "Interests": {
+    "title": "Eu ♥",
+    "description": "Quando não estou codando, eu gosto de sair com meus amigos, ir para a academia, jogar bola, assistir séries e filmes, e jogar video games."
+  },
+  "Socials": {
+    "title": "Minhas redes",
+    "copy": "COPIAR",
+    "copied": "COPIADO!",
+    "thumbnailAlt": "Uma thumbnail do YouTube escrito \"Renato Marques, a software engineer\"",
+    "youtubeDescription": "Meu canal no YouTube (>2k visualizações)"
+  },
+  "Contact": {
+    "title": "Contato",
+    "description": "Sinta-se à vontade para entrar em contato comigo.",
+    "emailButton": "Enviar email",
+    "whatsappButton": "Chat por Whatsapp"
+  },
+  "Professional": {
+    "title": "Experiência Profissional",
+    "vexCards": "Cartões VExpenses",
+    "vexCardsAlt": "Dois cartões de crédito azuis se cruzando e mostrando a frente e atrás",
+    "vexCardsDescription": "Plataforma de serviços para cartões de crédito para uma startup focada no reembolso de despesas corporativas.",
+    "vexUI": "VExpenses UI",
+    "vexUIAlt": "A logo do VExpenses com uma barra de pesquisa abaixo escrito \"Encontrar componentes\"",
+    "vexUIDescription": "Biblioteca de UI com componentes React seguindo o Design System do VExpenses."
+  },
+  "SideProjects": {
+    "title": "Side-projects",
+    "coffee": "Coffee Delivery",
+    "coffeeAlt": "Um copo preto e branco escrito \"Coffe Delivery\" e sementes de café ao redor.",
+    "coffeeDescription": "Delivery de cafeteria desde a listagem de produtos até o pagamento e página de sucesso.",
+    "igniteShop": "Ignite Shop",
+    "igniteShopAlt": "4 camisetas pretas diferentes e está escrito \"Pedido concluído!\"",
+    "igniteShopDescription": "E-commerce de camisetas integrado com o Stripe.",
+    "igniteUI": "Ignite UI",
+    "igniteUIAlt": "O logo do Storybook com uma barra de pesquisa abaixo escrito \"Encontrar componentes\"",
+    "igniteUIDescription": "Pacotes de Design System desenvolvidos e publicados no NPM para ser instalado e utilizado em outros projetos.",
+    "dtMoney": "DT Money",
+    "dtMoneyAlt": "Uma UI de dashboard escura com uma lista de transações monetárias.",
+    "dtMoneyDescription": "Sistema de acompanhamento de ganhos e despesas pessoais."
+  },
+  "Web3": {
+    "title": "Na Web 3.0",
+    "paperhands": "Paperhands Tracker",
+    "paperhandsAlt": "Um fundo escuro com um olho amarelo brilhante escrito embaixo \"Paperhands Tracker\".",
+    "paperhandsDescription": "Um tracker de transações de contratos da blockchain que procura por \"paperhands\".",
+    "anubis": "Anubis Rush",
+    "anubisAlt": "Uma tipografia 3D escrito \"Anubis Rush\" em roxo e amarelo com um fundo roxo escuro",
+    "anubisDescription": "Jogo desenvolvido para a competição Game Jam na comunidade do GodsGame NFT.",
+    "hyc": "Hold Your Crypto",
+    "hycAlt": "Um fundo roxo com um \"H\" branco como logotipo e está escrito \"Hold Your Crypto\" em branco abaixo",
+    "hycDescription": "Aplicativo Mobile que ajuda as pessoas a acompanhar seus investimentos em crypto.",
+    "cryptwitter": "CrypTwitter",
+    "cryptwitterAlt": "Um fundo branco escrito \"CrypTwitter\" em preto e um botão azul com um ícone de raposa e escrito \"Conectar com MetaMask\"",
+    "cryptwitterDescription": "Versão Web3 da timeline do Twitter, na blockchain."
   }
 }

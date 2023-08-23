@@ -2,12 +2,14 @@
 
 import * as RadixDropdown from '@radix-ui/react-dropdown-menu'
 import { motion } from 'framer-motion'
+import { useTranslations } from 'next-intl'
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { usePathname } from 'next-intl/client'
 import { PiList } from 'react-icons/pi'
 
 export function DropdownMenu() {
   const pathname = usePathname()
+  const t = useTranslations('Header')
 
   return (
     <RadixDropdown.Root>
@@ -29,7 +31,7 @@ export function DropdownMenu() {
                   pathname === '/' && 'bg-gray-200 bg-opacity-50'
                 }`}
               >
-                About
+                {t('about')}
               </RadixDropdown.Item>
             </Link>
 
@@ -39,13 +41,13 @@ export function DropdownMenu() {
                   pathname === '/projects' && 'bg-gray-200 bg-opacity-50'
                 }`}
               >
-                Projects
+                {t('projects')}
               </RadixDropdown.Item>
             </Link>
 
             <a href="https://www.github.com/renatomarquesteles/portfolio">
               <RadixDropdown.Item className="py-3 px-4 text-slate text-opacity-90">
-                View Source
+                {t('viewSource')}
               </RadixDropdown.Item>
             </a>
           </motion.div>

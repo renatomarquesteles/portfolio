@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
 import anubisRushImg from '@/assets/anubis-rush.png'
 import cryptwitterImg from '@/assets/cryptwitter.png'
@@ -10,10 +11,12 @@ import { SectionTitle } from '@/components/section-title'
 import { MotionDiv } from '@/components/motion-div'
 
 export function Web3() {
+  const t = useTranslations('Web3')
+
   return (
     <section>
       <MotionDiv delay={0.5}>
-        <SectionTitle>On the Web 3.0</SectionTitle>
+        <SectionTitle>{t('title')}</SectionTitle>
       </MotionDiv>
 
       <div className="w-full my-6 flex justify-center gap-8 flex-wrap">
@@ -25,7 +28,7 @@ export function Web3() {
           <MotionDiv delay={0.6}>
             <Image
               src={paperhandsImg}
-              alt='A dark background with a yellow glowing eye written "Paperhands Tracker" under it'
+              alt={t('paperhandsAlt')}
               width={240}
               height={130}
               quality={100}
@@ -33,11 +36,8 @@ export function Web3() {
             />
 
             <div className="w-full text-center sm:max-w-[240px]">
-              <h3 className="text-lg">Paperhands Tracker</h3>
-              <p className="text-sm">
-                A blockchain contract transaction tracker that checks for
-                &quot;paperhands&quot;.
-              </p>
+              <h3 className="text-lg">{t('paperhands')}</h3>
+              <p className="text-sm">{t('paperhandsDescription')}</p>
             </div>
           </MotionDiv>
         </a>
@@ -50,7 +50,7 @@ export function Web3() {
           <MotionDiv delay={0.6}>
             <Image
               src={anubisRushImg}
-              alt='A 3D typography written "Anubis Rush" in purple and yellow with a dark purple background'
+              alt={t('anubisAlt')}
               width={240}
               height={130}
               quality={100}
@@ -58,11 +58,8 @@ export function Web3() {
             />
 
             <div className="w-full text-center sm:max-w-[240px]">
-              <h3 className="text-lg">Anubis Rush</h3>
-              <p className="text-sm">
-                Game developed for the Game Jam competition at the GodsGame NFT
-                community.
-              </p>
+              <h3 className="text-lg">{t('anubis')}</h3>
+              <p className="text-sm">{t('anubisDescription')}</p>
             </div>
           </MotionDiv>
         </a>
@@ -75,7 +72,7 @@ export function Web3() {
           <MotionDiv delay={0.7}>
             <Image
               src={hycImg}
-              alt={`A purple background with a white "H" as the logo and it's written "Hold Your Crypto" in white under the logo`}
+              alt={t('hycAlt')}
               width={240}
               height={130}
               quality={100}
@@ -83,11 +80,8 @@ export function Web3() {
             />
 
             <div className="w-full text-center sm:max-w-[240px]">
-              <h3 className="text-lg">Hold Your Crypto</h3>
-              <p className="text-sm">
-                Mobile App that helps people keep track of their crypto
-                investments.
-              </p>
+              <h3 className="text-lg">{t('hyc')}</h3>
+              <p className="text-sm">{t('hycDescription')}</p>
             </div>
           </MotionDiv>
         </a>
@@ -100,7 +94,7 @@ export function Web3() {
           <MotionDiv delay={0.7}>
             <Image
               src={cryptwitterImg}
-              alt={`A white background written "CrypTwitter" in black and a blue button with a fox icon and it's written "Connect with MetaMask"`}
+              alt={t('cryptwitterAlt')}
               width={240}
               height={130}
               quality={100}
@@ -108,10 +102,8 @@ export function Web3() {
             />
 
             <div className="w-full text-center sm:max-w-[240px]">
-              <h3 className="text-lg">CrypTwitter</h3>
-              <p className="text-sm">
-                Web3 version of Twitter&quot;s timeline, on the blockchain.
-              </p>
+              <h3 className="text-lg">{t('cryptwitter')}</h3>
+              <p className="text-sm">{t('cryptwitterDescription')}</p>
             </div>
           </MotionDiv>
         </a>
