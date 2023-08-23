@@ -1,30 +1,29 @@
 'use client'
 
+import { useTranslations } from 'next-intl'
 import { useState } from 'react'
 
 export function CopyEmailToClipboardButton() {
-  const [copyEmailTxt, setCopyEmailTxt] = useState('COPY')
+  const t = useTranslations('Socials')
+  const [showCopied, setShowCopied] = useState(false)
 
   function copyEmailToClipboard() {
     navigator.clipboard.writeText('renatomarquesteles@gmail.com')
 
-    setCopyEmailTxt('COPIED!')
+    setShowCopied(true)
 
     setTimeout(() => {
-      setCopyEmailTxt('COPY')
+      setShowCopied(false)
     }, 1000)
   }
   return (
     <button
       type="button"
       onClick={copyEmailToClipboard}
-      disabled={copyEmailTxt !== 'COPY'}
-      className={`hidden w-[60px] h-min p-1 text-teal-700 text-xs rounded-md font-bold font-sans transition-all border border-teal-700 hover:bg-teal-50 sm:inline-block ${
-        copyEmailTxt !== 'COPY' &&
-        'bg-teal-700 text-white disabled:hover:bg-teal-700'
-      }`}
+      disabled={showCopied}
+      className="hidden w-[70px] h-min p-1 text-teal-700 text-xs rounded-md font-bold font-sans transition-all border border-teal-700 hover:bg-teal-50 sm:inline-block disabled:bg-teal-700 disabled:text-white disabled:hover:bg-teal-700"
     >
-      {copyEmailTxt}
+      {showCopied ? t('copied') : t('copy')}
     </button>
   )
 }
