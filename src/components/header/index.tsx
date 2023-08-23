@@ -3,7 +3,7 @@ import { useTranslations } from 'next-intl'
 import { PiMoonFill, PiCubeFill, PiGithubLogoFill } from 'react-icons/pi'
 
 import { NavLink } from './nav-link'
-import { DropdownMenu } from './dropdown-menu'
+import { NavDropdown } from './nav-dropdown'
 import { LanguageToggle } from './language-toggle'
 
 export function Header() {
@@ -45,7 +45,7 @@ export function Header() {
             <PiMoonFill size={16} color="#fff" />
           </button>
 
-          <DropdownMenu />
+          <NavDropdown />
         </div>
       </div>
     </header>

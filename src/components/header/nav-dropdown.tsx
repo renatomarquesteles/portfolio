@@ -7,7 +7,7 @@ import Link from 'next/link'
 import { usePathname } from 'next-intl/client'
 import { PiList } from 'react-icons/pi'
 
-export function DropdownMenu() {
+export function NavDropdown() {
   const pathname = usePathname()
   const t = useTranslations('Header')
 
