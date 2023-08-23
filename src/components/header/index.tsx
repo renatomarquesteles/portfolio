@@ -1,10 +1,10 @@
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
-import IntlLink from 'next-intl/link'
 import { PiMoonFill, PiCubeFill, PiGithubLogoFill } from 'react-icons/pi'
 
 import { NavLink } from './nav-link'
 import { DropdownMenu } from './dropdown-menu'
+import { LanguageToggle } from './language-toggle'
 
 export function Header() {
   const t = useTranslations('Header')
@@ -36,18 +36,15 @@ export function Header() {
         </div>
 
         <div className="flex items-center gap-4">
-          <IntlLink locale="en" href="/">
-            Switch to English
-          </IntlLink>
-          <IntlLink locale="pt-BR" href="/">
-            Switch to Portuguese
-          </IntlLink>
+          <LanguageToggle />
+
           <button
             type="button"
             className="w-10 h-10 rounded-md bg-purple-500 flex items-center justify-center transition-colors hover:bg-purple-600"
           >
             <PiMoonFill size={16} color="#fff" />
           </button>
+
           <DropdownMenu />
         </div>
       </div>
