@@ -4,13 +4,13 @@ import { PiMoonFill, PiCubeFill, PiGithubLogoFill } from 'react-icons/pi'
 
 import { NavLink } from './nav-link'
 import { NavDropdown } from './nav-dropdown'
-import { LanguageToggle } from './language-toggle'
+import { LangDropdown } from './lang-dropdown'
 
 export function Header() {
   const t = useTranslations('Header')
 
   return (
-    <header className="w-full h-16 bg-white bg-opacity-25 flex justify-center fixed top-0 z-50 backdrop-blur-md">
+    <header className="w-full h-16 bg-white bg-opacity-25 flex justify-center fixed top-0 z-40 backdrop-blur-md">
       <div className="w-full max-w-3xl px-4 flex justify-between items-center">
         <div className="h-full flex items-center gap-5">
           <Link href="/" className="flex items-center gap-1 group p-3">
@@ -36,7 +36,7 @@ export function Header() {
         </div>
 
         <div className="flex items-center gap-4">
-          <LanguageToggle />
+          <LangDropdown />
 
           <button
             type="button"
