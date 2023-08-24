@@ -25,10 +25,12 @@ export function LangDropdown() {
               height={24}
               className="h-6"
             />
-            <span className="hidden sm:inline-block text-sm text-slate">
+            <span className="hidden sm:inline-block text-sm text-slate dark:text-white dark:text-opacity-90">
               EN-US
             </span>
-            <PiCaretDownBold />
+            <span className="[&>svg]:fill-slate [&>svg]:dark:fill-white">
+              <PiCaretDownBold />
+            </span>
           </span>
         )}
 
@@ -41,10 +43,12 @@ export function LangDropdown() {
               height={24}
               className="h-6"
             />
-            <span className="hidden sm:inline-block text-sm text-slate">
+            <span className="hidden sm:inline-block text-sm text-slate dark:text-white dark:text-opacity-90">
               PT-BR
             </span>
-            <PiCaretDownBold />
+            <span className="[&>svg]:fill-slate [&>svg]:dark:fill-white">
+              <PiCaretDownBold />
+            </span>
           </span>
         )}
       </RadixDropdown.Trigger>
@@ -55,12 +59,12 @@ export function LangDropdown() {
             initial={{ x: 0, y: -80, scale: 0, opacity: 0 }}
             animate={{ x: 0, y: 0, scale: 1, opacity: 1 }}
             transition={{ duration: 0.3, delay: 0 }}
-            className="bg-white py-2 mt-3 mx-2 relative z-50 rounded-md w-24 shadow-sm shadow-shadow"
+            className="bg-white py-2 mt-3 mx-2 relative z-50 rounded-md w-24 shadow-sm shadow-shadow dark:bg-gray-400"
           >
             <IntlLink locale="en" href="/">
               <RadixDropdown.Item
-                className={`py-3 px-4 text-slate text-opacity-90 ${
-                  locale === 'en' && 'bg-gray-200 bg-opacity-50'
+                className={`py-3 px-4 text-slate text-opacity-90 dark:text-white dark:text-opacity-90 ${
+                  locale === 'en' && 'bg-gray-200 bg-opacity-50 dark:text-white'
                 }`}
               >
                 EN-US
@@ -69,8 +73,9 @@ export function LangDropdown() {
 
             <IntlLink locale="pt-BR" href="/">
               <RadixDropdown.Item
-                className={`py-3 px-4 text-slate text-opacity-90 ${
-                  locale === 'pt-BR' && 'bg-gray-200 bg-opacity-50'
+                className={`py-3 px-4 text-slate text-opacity-90 dark:text-white dark:text-opacity-90 ${
+                  locale === 'pt-BR' &&
+                  'bg-gray-200 bg-opacity-50 dark:text-white'
                 }`}
               >
                 PT-BR

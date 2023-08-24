@@ -23,7 +23,7 @@ export function SideProjects() {
         <a
           href="https://cheerful-hotteok-38b9a0.netlify.app"
           target="_blank"
-          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit"
+          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit dark:text-white dark:text-opacity-90"
         >
           <MotionDiv delay={0.3}>
             <Image
@@ -45,7 +45,7 @@ export function SideProjects() {
         <a
           href="https://github.com/renatomarquesteles/ignite-04-ignite-shop"
           target="_blank"
-          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit"
+          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit dark:text-white dark:text-opacity-90"
         >
           <MotionDiv delay={0.3}>
             <Image
@@ -67,7 +67,7 @@ export function SideProjects() {
         <a
           href="https://renatomarquesteles.github.io/ignite-05-rmt-ignite-ui/"
           target="_blank"
-          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit"
+          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit dark:text-white dark:text-opacity-90"
         >
           <MotionDiv delay={0.4}>
             <Image
@@ -89,7 +89,7 @@ export function SideProjects() {
         <a
           href="https://github.com/renatomarquesteles/ignite-03-dt-money"
           target="_blank"
-          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit"
+          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit dark:text-white dark:text-opacity-90"
         >
           <MotionDiv delay={0.4}>
             <Image

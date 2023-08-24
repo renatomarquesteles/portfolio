@@ -12,12 +12,14 @@ export function Info() {
   return (
     <header className="my-8 px-8 md:px-0">
       <MotionDiv delay={0.1}>
-        <div className="bg-white bg-opacity-30 my-6 p-3 rounded-lg">
-          <p className="text-center text-slate">{t('hello')}</p>
+        <div className="bg-white bg-opacity-30 my-6 p-3 rounded-lg dark:bg-gray-400 dark:bg-opacity-30">
+          <p className="text-center text-slate dark:text-white dark:text-opacity-90">
+            {t('hello')}
+          </p>
         </div>
 
         <div className="flex justify-between flex-wrap gap-3">
-          <div className="text-slate text-opacity-90">
+          <div className="text-slate text-opacity-90 dark:text-white dark:text-opacity-90">
             <h1 className="font-bold text-[34px] font-m-plus-rounded-1c tracking-tighter">
               Renato Marques Teles
             </h1>

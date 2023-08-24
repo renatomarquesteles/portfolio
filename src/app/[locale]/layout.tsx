@@ -58,7 +58,7 @@ export default async function RootLayout({
       lang={locale}
       className={`${inter.variable} ${mPlusRounded1c.variable} ${openSans.variable} dark`}
     >
-      <body className="bg-beige">
+      <body className="bg-beige dark:bg-gray-900">
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
 

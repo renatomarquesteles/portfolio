@@ -15,12 +15,14 @@ export function Contact() {
       <MotionDiv delay={0.6}>
         <SectionTitle>{t('title')}</SectionTitle>
 
-        <p className="text-slate text-opacity-90">{t('description')}</p>
+        <p className="text-slate text-opacity-90 dark:text-white dark:text-opacity-90">
+          {t('description')}
+        </p>
 
         <div className="w-fit mx-auto">
           <a
             href="mailto:renatomarquesteles@gmail.com"
-            className="w-full my-4 mx-auto py-[10px] px-5 rounded-md bg-teal-700 text-white flex items-center gap-3 font-semibold transition-colors hover:bg-teal-800"
+            className="w-full my-4 mx-auto py-[10px] px-5 rounded-md bg-teal-700 text-white flex items-center gap-3 font-semibold transition-colors hover:bg-teal-800 dark:bg-teal-300 dark:hover:bg-teal-400 dark:text-slate"
           >
             <BsEnvelopeFill size={16} />
             {t('emailButton')}
@@ -28,7 +30,7 @@ export function Contact() {
           <a
             href="https://wa.me/5516992921771"
             target="_blank"
-            className="w-fit my-4 mx-auto py-[10px] px-5 rounded-md bg-teal-700 text-white flex items-center gap-3 font-semibold transition-colors hover:bg-teal-800"
+            className="w-fit my-4 mx-auto py-[10px] px-5 rounded-md bg-teal-700 text-white flex items-center gap-3 font-semibold transition-colors hover:bg-teal-800 dark:bg-teal-300 dark:hover:bg-teal-400 dark:text-slate"
           >
             <PiWhatsappLogoFill size={16} />
             {t('whatsappButton')}

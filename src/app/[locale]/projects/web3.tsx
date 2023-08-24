@@ -23,7 +23,7 @@ export function Web3() {
         <a
           href="https://twitter.com/GodsgameNFT/status/1511346299504836620"
           target="_blank"
-          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit"
+          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit dark:text-white dark:text-opacity-90"
         >
           <MotionDiv delay={0.6}>
             <Image
@@ -45,7 +45,7 @@ export function Web3() {
         <a
           href="https://anubis-rush.netlify.app/"
           target="_blank"
-          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit"
+          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit dark:text-white dark:text-opacity-90"
         >
           <MotionDiv delay={0.6}>
             <Image
@@ -67,7 +67,7 @@ export function Web3() {
         <a
           href="https://github.com/renatomarquesteles/hold-your-crypto"
           target="_blank"
-          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit"
+          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit dark:text-white dark:text-opacity-90"
         >
           <MotionDiv delay={0.7}>
             <Image
@@ -89,7 +89,7 @@ export function Web3() {
         <a
           href="https://github.com/renatomarquesteles/web3-cryptwitter/"
           target="_blank"
-          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit"
+          className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit dark:text-white dark:text-opacity-90"
         >
           <MotionDiv delay={0.7}>
             <Image

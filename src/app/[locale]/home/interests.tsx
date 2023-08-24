@@ -13,7 +13,7 @@ export function Interests() {
       <MotionDiv delay={0.4}>
         <SectionTitle>{t('title')}</SectionTitle>
 
-        <p className="indent-4 text-slate text-opacity-90">
+        <p className="indent-4 text-slate text-opacity-90 dark:text-white dark:text-opacity-90">
           {t('description')}
         </p>
       </MotionDiv>

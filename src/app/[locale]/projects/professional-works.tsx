@@ -20,7 +20,7 @@ export function ProfessionalWorks() {
           <a
             href="https://vexpenses.com.br/en-US/cartao-corporativo-e-cartao-empresarial"
             target="_blank"
-            className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit"
+            className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit dark:text-white dark:text-opacity-90"
           >
             <Image
               src={vexCardsImg}
@@ -40,7 +40,7 @@ export function ProfessionalWorks() {
           <a
             href="https://focused-snyder-cf8a6e.netlify.app/"
             target="_blank"
-            className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit"
+            className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit dark:text-white dark:text-opacity-90"
           >
             <Image
               src={vexUIImg}

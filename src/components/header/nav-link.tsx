@@ -15,7 +15,7 @@ export function NavLink({ children, href, ...rest }: NavLinkProps) {
     <Link
       href={href}
       className={`p-2 flex items-center hover:underline underline-offset-4 ${
-        pathname === href && 'bg-teal-200'
+        pathname === href && 'bg-teal-200 dark:bg-teal-700'
       }`}
       {...rest}
     >
