@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import { useLocale } from 'next-intl'
 import IntlLink from 'next-intl/link'
+import { usePathname } from 'next-intl/client'
 import { PiCaretDownBold } from 'react-icons/pi'
 
 import brazilFlag from '@/assets/brazil-flag.svg'
@@ -12,6 +13,7 @@ import usaFlag from '@/assets/usa-flag.svg'
 
 export function LangDropdown() {
   const locale = useLocale()
+  const pathname = usePathname()
 
   return (
     <RadixDropdown.Root>
@@ -61,7 +63,7 @@ export function LangDropdown() {
             transition={{ duration: 0.3, delay: 0 }}
             className="bg-white py-2 mt-3 mx-2 relative z-50 rounded-md w-24 shadow-sm shadow-shadow dark:bg-gray-400"
           >
-            <IntlLink locale="en" href="/">
+            <IntlLink locale="en" href={pathname}>
               <RadixDropdown.Item
                 className={`py-3 px-4 text-slate text-opacity-90 dark:text-white dark:text-opacity-90 ${
                   locale === 'en' && 'bg-gray-200 bg-opacity-50 dark:text-white'
@@ -71,7 +73,7 @@ export function LangDropdown() {
               </RadixDropdown.Item>
             </IntlLink>
 
-            <IntlLink locale="pt-BR" href="/">
+            <IntlLink locale="pt-BR" href={pathname}>
               <RadixDropdown.Item
                 className={`py-3 px-4 text-slate text-opacity-90 dark:text-white dark:text-opacity-90 ${
                   locale === 'pt-BR' &&
