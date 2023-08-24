@@ -13,9 +13,9 @@ export function ProfessionalWorks() {
 
   return (
     <section>
-      <SectionTitle>{t('title')}</SectionTitle>
-
       <MotionDiv>
+        <SectionTitle>{t('title')}</SectionTitle>
+
         <div className="w-full my-6 flex justify-center gap-8 flex-wrap">
           <a
             href="https://vexpenses.com.br/en-US/cartao-corporativo-e-cartao-empresarial"

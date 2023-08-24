@@ -7,6 +7,7 @@ import { notFound } from 'next/navigation'
 
 import { Header } from '@/components/header'
 import { Footer } from './footer'
+import { ThemeProvider } from './theme-provider'
 
 export const metadata: Metadata = {
   title: {
@@ -56,15 +57,17 @@ export default async function RootLayout({
   return (
     <html
       lang={locale}
-      className={`${inter.variable} ${mPlusRounded1c.variable} ${openSans.variable} dark`}
+      className={`${inter.variable} ${mPlusRounded1c.variable} ${openSans.variable}`}
     >
       <body className="bg-beige dark:bg-gray-900">
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <Header />
+          <ThemeProvider>
+            <Header />
 
-          <div className="px-4 pt-16 sm:px-0">{children}</div>
+            <div className="px-4 pt-16 sm:px-0">{children}</div>
 
-          <Footer />
+            <Footer />
+          </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>

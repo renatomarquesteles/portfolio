@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
-import { PiMoonFill, PiCubeFill, PiGithubLogoFill } from 'react-icons/pi'
+import { PiCubeFill, PiGithubLogoFill } from 'react-icons/pi'
 
 import { NavLink } from './nav-link'
 import { NavDropdown } from './nav-dropdown'
 import { LangDropdown } from './lang-dropdown'
+import { ThemeToggle } from './theme-toggle'
 
 export function Header() {
   const t = useTranslations('Header')
@@ -14,7 +15,7 @@ export function Header() {
       <div className="w-full max-w-3xl px-4 flex justify-between items-center">
         <div className="h-full flex items-center gap-5">
           <Link href="/" className="flex items-center gap-1 group p-3">
-            <div className="rotate-[-30deg] transition-transform group-hover:rotate-0 [&>svg]:fill-white [&>svg]:dark:fill-[#ffffffeb]">
+            <div className="rotate-[-30deg] transition-transform group-hover:rotate-0 [&>svg]:fill-slate [&>svg]:dark:fill-[#ffffffeb]">
               <PiCubeFill size={25} />
             </div>
             <span className="font-extrabold text-base text-slate tracking-tighter leading-none dark:text-white dark:text-opacity-90">
@@ -38,12 +39,7 @@ export function Header() {
         <div className="flex items-center gap-4">
           <LangDropdown />
 
-          <button
-            type="button"
-            className="w-10 h-10 rounded-md bg-purple-500 flex items-center justify-center transition-colors hover:bg-purple-600"
-          >
-            <PiMoonFill size={16} color="#fff" />
-          </button>
+          <ThemeToggle />
 
           <NavDropdown />
         </div>
