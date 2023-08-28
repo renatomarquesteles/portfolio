@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 
-import avatarImg from '@/assets/avatar.png'
+import profileImg from '@/assets/pfp.png'
 import { MotionDiv } from '@/components/motion-div'
 
 export function Info() {
@@ -32,7 +32,7 @@ export function Info() {
           </div>
 
           <Image
-            src={avatarImg}
+            src={profileImg}
             alt={t('avatarAlt')}
             width={100}
             height={100}
