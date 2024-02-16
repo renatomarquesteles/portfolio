@@ -57,7 +57,9 @@
   },
   "SideProjects": {
     "title": "Side-projects",
-    "frontend": "Front-end",
+    "frontend": "Front-end"
+  },
+  "FrontEnd": {
     "coffee": "Coffee Delivery",
     "coffeeAlt": "Um copo preto e branco escrito \"Coffe Delivery\" e sementes de café ao redor.",
     "coffeeDescription": "Delivery de cafeteria desde a listagem de produtos até o pagamento e página de sucesso.",
