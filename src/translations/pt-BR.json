@@ -58,7 +58,8 @@
   "SideProjects": {
     "title": "Side-projects",
     "frontend": "Front-end",
-    "mobile": "Mobile"
+    "mobile": "Mobile",
+    "backend": "Back-end"
   },
   "FrontEnd": {
     "coffee": "Coffee Delivery",
@@ -84,6 +85,14 @@
     "teams": "Teams",
     "teamsAlt": "Fundo escuro com uma logo que é um ícone com um foguete verde dentro de um escudo e 3 estrelas douradas acima dele. No centro está escrito \"Teams - Play with your team\".",
     "teamsDescription": "Este app foi feito para gamers gerenciarem seus times para jogar online."
+  },
+  "BackEnd": {
+    "polls": "Polls",
+    "pollsAlt": "Fundo azul escuro com um JSON com as propriedades \"title\" e \"options\".",
+    "pollsDescription": "Esta API em Node.js cria enquetes e atualiza os votos em tempo real usando web sockets.",
+    "barcodes": "Barcodes",
+    "barcodesAlt": "Um código de barras com o número 123-456-789.",
+    "barcodesDescription": "Esta API em Python cria códigos de barras para seus produtos."
   },
   "Web3": {
     "title": "Na Web 3.0",

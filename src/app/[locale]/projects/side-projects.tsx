@@ -6,6 +6,7 @@ import { SectionTitle } from '@/components/section-title'
 import { MotionDiv } from '@/components/motion-div'
 import { FrontEnd } from './front-end'
 import { Mobile } from './mobile'
+import { BackEnd } from './back-end'
 
 export function SideProjects() {
   const t = useTranslations('SideProjects')
@@ -25,6 +26,11 @@ export function SideProjects() {
         <SectionTitle>{t('mobile')}</SectionTitle>
       </MotionDiv>
       <Mobile />
+
+      <MotionDiv delay={0.3}>
+        <SectionTitle>{t('backend')}</SectionTitle>
+      </MotionDiv>
+      <BackEnd />
     </section>
   )
 }
