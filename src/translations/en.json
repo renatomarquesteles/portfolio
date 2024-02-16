@@ -57,18 +57,19 @@
   },
   "SideProjects": {
     "title": "Side-projects",
+    "frontend": "Front-end",
     "coffee": "Coffee Delivery",
     "coffeeAlt": "A black and white cup written Coffe Delivery and coffee seeds around it",
     "coffeeDescription": "A coffee shop delivery from the products list to the checkout and success pages.",
-    "igniteShop": "Ignite Shop",
-    "igniteShopAlt": "4 different black t-shirts and it's written \"order completed!\"",
-    "igniteShopDescription": "A t-shirts e-commerce integrated with Stripe.",
+    "adminDashboard": "Admin Dashboard",
+    "adminDashboardAlt": "Dark blue background with a search bar on the top with some white icons, it's written \"Dashboard\" on the center and there is a purple button above it written \"Download reports\".",
+    "adminDashboardDescription": "Admin dashboard with charts, tables and forms.",
     "igniteUI": "Ignite UI",
     "igniteUIAlt": "The Storybook logo with a search input under it written \"Find components\"",
     "igniteUIDescription": "Design System packages built and release on NPM to be installed and used in other projects.",
-    "dtMoney": "DT Money",
-    "dtMoneyAlt": "A dark UI dashboard with a list of money transactions",
-    "dtMoneyDescription": "A personal transactions tracker system."
+    "uploadAI": "upload.ai",
+    "uploadAIAlt": "A light background with the logo upload.ai on the top left and an empty text box above it.",
+    "uploadAIDescription": "AI app to generate titles and descriptions for YouTube videos."
   },
   "Web3": {
     "title": "On the Web 3.0",

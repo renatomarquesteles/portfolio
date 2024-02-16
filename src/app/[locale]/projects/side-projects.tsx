@@ -4,8 +4,8 @@ import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 
 import coffeDeliveryImg from '@/assets/coffee-delivery.png'
-import dtMoneyImg from '@/assets/dt-money.png'
-import igniteShopImg from '@/assets/ignite-shop.png'
+import uploadAiImg from '@/assets/upload-ai.png'
+import adminDashboardImg from '@/assets/admin-dashboard.png'
 import igniteUIImg from '@/assets/ignite-ui.png'
 import { SectionTitle } from '@/components/section-title'
 import { MotionDiv } from '@/components/motion-div'
@@ -17,6 +17,9 @@ export function SideProjects() {
     <section>
       <MotionDiv delay={0.2}>
         <SectionTitle>{t('title')}</SectionTitle>
+      </MotionDiv>
+      <MotionDiv delay={0.3}>
+        <SectionTitle>{t('frontend')}</SectionTitle>
       </MotionDiv>
 
       <div className="w-full my-6 flex justify-center gap-8 flex-wrap">
@@ -43,14 +46,14 @@ export function SideProjects() {
         </a>
 
         <a
-          href="https://github.com/renatomarquesteles/ignite-04-ignite-shop"
+          href="https://admin-dashboard-bay-six.vercel.app/"
           target="_blank"
           className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit dark:text-white dark:text-opacity-90"
         >
           <MotionDiv delay={0.3}>
             <Image
-              src={igniteShopImg}
-              alt={t('igniteShopAlt')}
+              src={adminDashboardImg}
+              alt={t('adminDashboardAlt')}
               width={240}
               height={130}
               quality={100}
@@ -58,8 +61,8 @@ export function SideProjects() {
             />
 
             <div className="w-full text-center sm:max-w-[240px]">
-              <h3 className="text-lg">{t('igniteShop')}</h3>
-              <p className="text-sm">{t('igniteShopDescription')}</p>
+              <h3 className="text-lg">{t('adminDashboard')}</h3>
+              <p className="text-sm">{t('adminDashboardDescription')}</p>
             </div>
           </MotionDiv>
         </a>
@@ -87,14 +90,14 @@ export function SideProjects() {
         </a>
 
         <a
-          href="https://github.com/renatomarquesteles/ignite-03-dt-money"
+          href="https://github.com/renatomarquesteles/nlw-upload-ai"
           target="_blank"
           className="w-full flex flex-col items-center text-slate text-opacity-90 sm:w-fit dark:text-white dark:text-opacity-90"
         >
           <MotionDiv delay={0.4}>
             <Image
-              src={dtMoneyImg}
-              alt={t('dtMoneyAlt')}
+              src={uploadAiImg}
+              alt={t('uploadAIAlt')}
               width={240}
               height={130}
               quality={100}
@@ -102,8 +105,8 @@ export function SideProjects() {
             />
 
             <div className="w-full text-center sm:max-w-[240px]">
-              <h3 className="text-lg">{t('dtMoney')}</h3>
-              <p className="text-sm">{t('dtMoneyDescription')}</p>
+              <h3 className="text-lg">{t('uploadAI')}</h3>
+              <p className="text-sm">{t('uploadAIDescription')}</p>
             </div>
           </MotionDiv>
         </a>
