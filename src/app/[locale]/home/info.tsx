@@ -26,7 +26,7 @@ export function Info() {
             <p className="text-sm">
               {t('profession')}{' '}
               <span className="whitespace-nowrap">
-                ( React / JavaScript / Next.js )
+                ( React / React Native / Node.js )
               </span>
             </p>
           </div>

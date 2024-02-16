@@ -1,6 +1,6 @@
 {
   "Layout": {
-    "footer": "© 2023 Renato Marques Teles. All Rights Reserved."
+    "footer": "© 2024 Renato Marques Teles. All Rights Reserved."
   },
   "Header": {
     "projects": "Projects",
@@ -9,13 +9,13 @@
     "viewSource": "View Source"
   },
   "Info": {
-    "hello": "Hello, I'm a frontend developer based in Brazil!",
-    "profession": "Software Engineer",
+    "hello": "Hello, I'm a software engineer based in Brazil!",
+    "profession": "JavaScript Engineer",
     "avatarAlt": "Picture of the author"
   },
   "Work": {
     "title": "Work",
-    "description": "I'm a front-end developer passionate about building beautiful and responsive interfaces and amazing user experiences. I've worked with various clients and collaborated with cross-functional teams to deliver successful projects. My last big project was to fully develop and deploy the interface of a credit card related platform for <vexLink>VExpenses</vexLink>, a startup focused on managing corporate expense reimbursements. Also, my <ghLink>GitHub</ghLink> profile contains more than 99 repositories of side projects I have built along the way.",
+    "description": "I'm passionate about building beautiful and responsive interfaces and amazing user experiences. I've worked with various clients and collaborated with cross-functional teams to deliver successful projects. My last big project was to fully develop and deploy the interface of a credit card related platform for <vexLink>VExpenses</vexLink>, a startup focused on managing corporate expense reimbursements. Also, my <ghLink>GitHub</ghLink> profile contains more than 100 repositories of side projects I have built along the way.",
     "button": "My portfolio"
   },
   "Bio": {
