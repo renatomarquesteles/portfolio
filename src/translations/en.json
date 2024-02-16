@@ -57,21 +57,33 @@
   },
   "SideProjects": {
     "title": "Side-projects",
-    "frontend": "Front-end"
+    "frontend": "Front-end",
+    "mobile": "Mobile"
   },
   "FrontEnd": {
     "coffee": "Coffee Delivery",
     "coffeeAlt": "A black and white cup written Coffe Delivery and coffee seeds around it",
     "coffeeDescription": "A coffee shop delivery from the products list to the checkout and success pages.",
     "adminDashboard": "Admin Dashboard",
-    "adminDashboardAlt": "Dark blue background with a search bar on the top with some white icons, it's written \"Dashboard\" on the center and there is a purple button above it written \"Download reports\".",
+    "adminDashboardAlt": "Dark blue background with a search bar on the top with some white icons, it's written \"Dashboard\" on the center and there is a purple button under it written \"Download reports\".",
     "adminDashboardDescription": "Admin dashboard with charts, tables and forms.",
     "igniteUI": "Ignite UI",
     "igniteUIAlt": "The Storybook logo with a search input under it written \"Find components\"",
     "igniteUIDescription": "Design System packages built and release on NPM to be installed and used in other projects.",
     "uploadAI": "upload.ai",
-    "uploadAIAlt": "A light background with the logo upload.ai on the top left and an empty text box above it.",
+    "uploadAIAlt": "A light background with the logo upload.ai on the top left and an empty text box under it.",
     "uploadAIDescription": "AI app to generate titles and descriptions for YouTube videos."
+  },
+  "Mobile": {
+    "restaurantDelivery": "Restaurant Delivery",
+    "restaurantDeliveryAlt": "A dark blue background with a white text written \"Your Cart\" and a picture of a hamburger under it with the title \"X-React\" and a description.",
+    "restaurantDeliveryDescription": "This app shows the menu of a restaurant and allow customers to make their order and send it through WhatsApp.",
+    "dailyDiet": "Daily Diet",
+    "dailyDietAlt": "A white background with the logo written \"Daily Diet\" an user avatar on the right and in the certer a green box with a percentage in black \"55.56%\".",
+    "dailyDietDescription": "This app tracks your daily meals to help you stick to your diet.",
+    "teams": "Teams",
+    "teamsAlt": "A dark background with a logo that is an icon with a green rocket inside a shield and 3 gold stars above it. On the center it's written \"Teams - Play with your team\".",
+    "teamsDescription": "This app is designed for gamers to manage their teams to play online."
   },
   "Web3": {
     "title": "On the Web 3.0",

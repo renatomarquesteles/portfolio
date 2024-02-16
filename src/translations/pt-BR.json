@@ -57,7 +57,8 @@
   },
   "SideProjects": {
     "title": "Side-projects",
-    "frontend": "Front-end"
+    "frontend": "Front-end",
+    "mobile": "Mobile"
   },
   "FrontEnd": {
     "coffee": "Coffee Delivery",
@@ -72,6 +73,17 @@
     "uploadAI": "upload.ai",
     "uploadAIAlt": "Um fundo branco com o logo upload.ai no topo esquerdo e uma caixa de texto vazia abaixo.",
     "uploadAIDescription": "Aplicação de IA para gerar títulos e descrições de vídeos para o YouTube."
+  },
+  "Mobile": {
+    "restaurantDelivery": "Delivery de Restaurante",
+    "restaurantDeliveryAlt": "Fundo azul escuro com um texto em branco escrito \"Your Cart\" e a imagem de um hambúrger abaixo, com o título \"X-React\" e uma descrição.",
+    "restaurantDeliveryDescription": "Este aplicativo mostra o cardápio de um restaurante e permite que os clientes montem seus pedidos e enviem por WhatsApp.",
+    "dailyDiet": "Daily Diet",
+    "dailyDietAlt": "Fundo branco com o logo escrito \"Daily Diet\", um avatar de usuário na direita e no centro uma caixa verde com uma porcentagem em preto \"55.56%\".",
+    "dailyDietDescription": "Este app acompanha suas refeições diárias para ajudá-lo a se manter na dieta.",
+    "teams": "Teams",
+    "teamsAlt": "Fundo escuro com uma logo que é um ícone com um foguete verde dentro de um escudo e 3 estrelas douradas acima dele. No centro está escrito \"Teams - Play with your team\".",
+    "teamsDescription": "Este app foi feito para gamers gerenciarem seus times para jogar online."
   },
   "Web3": {
     "title": "Na Web 3.0",
