@@ -2,10 +2,8 @@
 
 import { PiEnvelope, PiGithubLogoFill } from 'react-icons/pi'
 import { FaLinkedin } from 'react-icons/fa'
-import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 
-import thumbnailImg from '@/assets/youtube-thumbnail.png'
 import { CopyEmailToClipboardButton } from '@/components/copy-email-to-clipboard-button'
 import { SectionTitle } from '@/components/section-title'
 import { MotionDiv } from '@/components/motion-div'
