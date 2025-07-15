@@ -6,6 +6,7 @@ import { useTranslations } from 'next-intl'
 import profileImg from '@/assets/pfp.png'
 import { MotionDiv } from '@/components/motion-div'
 import { Badge } from '@/components/ui/badge'
+import { GlowEffect } from '@/components/ui/motion-primitives/glow-effect'
 
 export function Info() {
   const t = useTranslations('Info')
@@ -32,13 +33,22 @@ export function Info() {
             </div>
           </div>
 
-          <Image
-            src={profileImg}
-            alt={t('avatarAlt')}
-            width={100}
-            height={100}
-            className="w-[100px] h-[100px] rounded-full border-2 border-white border-opacity-80"
-          />
+          <div className="relative flex items-center justify-center w-[108px] h-[108px] rounded-full overflow-hidden">
+            <div className="absolute inset-0 flex items-center justify-center z-0">
+              <GlowEffect
+                colors={['#0894FF', '#C959DD', '#FF2E54', '#FF9004']}
+                mode="colorShift"
+                blur="strong"
+              />
+            </div>
+            <Image
+              src={profileImg}
+              alt={t('avatarAlt')}
+              width={100}
+              height={100}
+              className="w-[100px] h-[100px] rounded-full relative z-10 border-2 border-white border-opacity-80"
+            />
+          </div>
         </div>
       </MotionDiv>
     </header>
