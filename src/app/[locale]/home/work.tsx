@@ -6,6 +6,12 @@ import { PiCaretRightBold } from 'react-icons/pi'
 
 import { SectionTitle } from '@/components/section-title'
 import { MotionDiv } from '@/components/motion-div'
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from '@/components/ui/tooltip'
+import { Arrow } from '@radix-ui/react-tooltip'
 
 export function Work() {
   const t = useTranslations('Work')
@@ -18,22 +24,38 @@ export function Work() {
         <p className="my-4 text-slate text-opacity-90 dark:text-white dark:text-opacity-90">
           {t.rich('description', {
             vexLink: (chunks) => (
-              <a
-                href="https://vexpenses.com.br"
-                target="_blank"
-                className="text-blue-500 underline-offset-4 hover:underline dark:text-pink dark:text-opacity-90"
-              >
-                {chunks}
-              </a>
+              <Tooltip>
+                <TooltipTrigger>
+                  <a
+                    href="https://vexpenses.com.br"
+                    target="_blank"
+                    className="text-blue-500 underline-offset-4 hover:underline dark:text-pink dark:text-opacity-90"
+                  >
+                    {chunks}
+                  </a>
+                </TooltipTrigger>
+                <TooltipContent>
+                  <Arrow />
+                  <p>vexpenses.com.br</p>
+                </TooltipContent>
+              </Tooltip>
             ),
             ghLink: (chunks) => (
-              <a
-                href="https://www.github.com/renatomarquesteles"
-                target="_blank"
-                className="text-blue-500 underline-offset-4 hover:underline dark:text-pink dark:text-opacity-90"
-              >
-                {chunks}
-              </a>
+              <Tooltip>
+                <TooltipTrigger>
+                  <a
+                    href="https://www.github.com/renatomarquesteles"
+                    target="_blank"
+                    className="text-blue-500 underline-offset-4 hover:underline dark:text-pink dark:text-opacity-90"
+                  >
+                    {chunks}
+                  </a>
+                </TooltipTrigger>
+                <TooltipContent>
+                  <Arrow />
+                  <p>github.com/renatomarquesteles</p>
+                </TooltipContent>
+              </Tooltip>
             ),
           })}
         </p>

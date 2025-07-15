@@ -9,6 +9,7 @@ import { Header } from '@/components/header'
 import { Footer } from './footer'
 import { ThemeProvider } from './theme-provider'
 import { Background } from '@/components/background'
+import { TooltipProvider } from '@/components/ui/tooltip'
 
 export const metadata: Metadata = {
   title: {
@@ -53,14 +54,16 @@ export default async function RootLayout({
       <body className="bg-gray-100 dark:bg-gray-950">
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider>
-            <Header />
+            <TooltipProvider delayDuration={0}>
+              <Header />
 
-            <Background />
-            <div className="max-w-2xl mx-auto bg-white dark:bg-gray-900 relative z-10 px-12 py-1 mt-24 rounded-lg">
-              {children}
-            </div>
+              <Background />
+              <div className="max-w-2xl mx-auto bg-white dark:bg-gray-900 relative z-10 px-12 py-1 mt-24 rounded-lg">
+                {children}
+              </div>
 
-            <Footer />
+              <Footer />
+            </TooltipProvider>
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>
