@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl'
 
 import profileImg from '@/assets/pfp.png'
 import { MotionDiv } from '@/components/motion-div'
+import { Badge } from '@/components/ui/badge'
 
 export function Info() {
   const t = useTranslations('Info')
@@ -23,12 +24,12 @@ export function Info() {
             <h1 className="font-bold text-[34px] font-open-sans tracking-tighter">
               Renato Marques Teles
             </h1>
-            <p className="text-sm">
-              {t('profession')}{' '}
-              <span className="whitespace-nowrap">
-                ( React / React Native / Node.js )
-              </span>
-            </p>
+            <p className="text-sm">{t('profession')}</p>
+            <div className="flex gap-3 mt-2">
+              <Badge variant="react">React</Badge>
+              <Badge variant="reactNative">React Native</Badge>
+              <Badge variant="node">Node.js</Badge>
+            </div>
           </div>
 
           <Image

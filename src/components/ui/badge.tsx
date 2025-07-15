@@ -15,6 +15,9 @@ const badgeVariants = cva(
         destructive:
           'border-transparent bg-destructive text-destructive-foreground shadow hover:bg-destructive/80',
         outline: 'text-foreground',
+        react: 'bg-blue-900 text-white',
+        reactNative: 'bg-blue-400 text-white',
+        node: 'bg-green-500 text-white',
       },
     },
     defaultVariants: {

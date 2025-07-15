@@ -10,7 +10,7 @@
   },
   "Info": {
     "hello": "👋 Hello, I'm a software engineer based in Brazil!",
-    "profession": "JavaScript Engineer",
+    "profession": "JavaScript Software Engineer",
     "avatarAlt": "Picture of the author"
   },
   "Work": {
@@ -20,13 +20,13 @@
   },
   "Bio": {
     "title": "Bio",
-    "born": "Born in Franca (SP), Brazil.",
-    "smn": "Worked at SMN IT.",
+    "born": "Born and raised in Franca (SP), Brazil.",
+    "smn": "Frontend Developer at SMN IT.",
     "gostack": "Completed the GoStack bootcamp program by Rocketseat.",
-    "vexpenses": "Worked at VExpenses.",
-    "unifacef": "Completed a Bachelor's degree in Software Engineering at Franca's Municipal University Center (Uni-FACEF).",
+    "vexpenses": "Frontend Developer at VExpenses.",
+    "unifacef": "Bachelor's degree in Software Engineering at Franca's Municipal University Center (Uni-FACEF).",
     "ignite": "Completed the Ignite React bootcamp program by Rocketseat.",
-    "freelance": "Working as a freelancer",
+    "freelance": "Freelancer",
     "toPresent": "to present"
   },
   "Socials": {

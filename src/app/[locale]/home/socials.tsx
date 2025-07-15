@@ -47,25 +47,6 @@ export function Socials() {
             <CopyEmailToClipboardButton />
           </div>
         </div>
-
-        <div className="w-full my-2 flex justify-center">
-          <a
-            href="https://www.youtube.com/@renatomarquesteles3517"
-            target="_blank"
-            className="w-fit flex flex-col items-center text-slate text-opacity-90 dark:text-white dark:text-opacity-90"
-          >
-            <Image
-              src={thumbnailImg}
-              alt={t('thumbnailAlt')}
-              width={240}
-              height={130}
-              className="rounded-xl mb-2"
-            />
-
-            <h3 className="text-base">Renato Marques Teles</h3>
-            <p className="text-sm">{t('youtubeDescription')}</p>
-          </a>
-        </div>
       </MotionDiv>
     </section>
   )

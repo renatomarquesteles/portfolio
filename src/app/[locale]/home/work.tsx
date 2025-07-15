@@ -19,9 +19,9 @@ export function Work() {
           {t.rich('description', {
             vexLink: (chunks) => (
               <a
-                href="https://vexpenses.com.br/en-US"
+                href="https://vexpenses.com.br"
                 target="_blank"
-                className="text-blue underline-offset-4 hover:underline dark:text-pink dark:text-opacity-90"
+                className="text-blue-500 underline-offset-4 hover:underline dark:text-pink dark:text-opacity-90"
               >
                 {chunks}
               </a>
@@ -30,7 +30,7 @@ export function Work() {
               <a
                 href="https://www.github.com/renatomarquesteles"
                 target="_blank"
-                className="text-blue underline-offset-4 hover:underline dark:text-pink dark:text-opacity-90"
+                className="text-blue-500 underline-offset-4 hover:underline dark:text-pink dark:text-opacity-90"
               >
                 {chunks}
               </a>

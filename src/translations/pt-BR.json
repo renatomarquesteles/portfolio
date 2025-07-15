@@ -16,17 +16,17 @@
   "Work": {
     "title": "Sobre",
     "description": "Sou fascinado por criar interfaces belas e responsivas e experiências de usuário incríveis. Trabalhei com diversos clientes e colaborei com times multifuncionais para entregar projetos de sucesso. Meu último grande projeto foi desenvolver e publicar a interface de uma plataforma relacionada à cartões de crédito para o <vexLink>VExpenses</vexLink>, uma startup focada no gerenciamento de reembolsos de despesas corporativas. Além disso, no meu perfil no <ghLink>GitHub</ghLink> há mais de 100 repositórios de side-projects que eu desenvolvi durante a carreira.",
-    "button": "Meu portfólio"
+    "button": "Meus projetos"
   },
   "Bio": {
     "title": "Bio",
     "born": "Nascido em Franca (SP), Brasil.",
-    "smn": "Trabalhei na SMN Tecnologia da Informação.",
+    "smn": "Dev Frontend na SMN Tecnologia da Informação.",
     "gostack": "Completei o bootcamp GoStack da Rocketseat.",
-    "vexpenses": "Trabalhei no VExpenses.",
-    "unifacef": "Completei a graduação em Engenharia de Software no Centro Universitário Municipal de Franca (Uni-FACEF).",
+    "vexpenses": "Dev Frontend no VExpenses.",
+    "unifacef": "Graduação em Engenharia de Software no Centro Universitário Municipal de Franca (Uni-FACEF).",
     "ignite": "Completei o bootcamp Ignite React da Rocketseat.",
-    "freelance": "Trabalhando como freelancer",
+    "freelance": "Freelancer",
     "toPresent": "até o momento"
   },
   "Socials": {
