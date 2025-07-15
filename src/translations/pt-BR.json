@@ -1,6 +1,6 @@
 {
   "Layout": {
-    "footer": "© 2024 Renato Marques Teles. Todos os direitos reservados."
+    "footer": "© 2025 Renato Marques Teles. Todos os direitos reservados."
   },
   "Header": {
     "projects": "Projetos",
@@ -9,8 +9,8 @@
     "viewSource": "Ver Código-fonte"
   },
   "Info": {
-    "hello": "Olá, sou um engenheiro de software morando no Brasil!",
-    "profession": "Dev Fullstack JavaScript",
+    "hello": "👋 Olá, construo interfaces que conectam ideias e pessoas!",
+    "profession": "Dev Frontend / Fullstack JavaScript",
     "avatarAlt": "Foto do autor"
   },
   "Work": {
@@ -28,10 +28,6 @@
     "ignite": "Completei o bootcamp Ignite React da Rocketseat.",
     "freelance": "Trabalhando como freelancer",
     "toPresent": "até o momento"
-  },
-  "Interests": {
-    "title": "Eu ♥",
-    "description": "Quando não estou codando, eu gosto de sair com meus amigos, ir para a academia, jogar bola, assistir séries e filmes, e jogar video games."
   },
   "Socials": {
     "title": "Minhas redes",

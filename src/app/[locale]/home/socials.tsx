@@ -22,7 +22,7 @@ export function Socials() {
           <a
             href="https://www.github.com/renatomarquesteles"
             target="_blank"
-            className="w-fit py-3 px-4 flex items-center gap-2 text-teal-700 rounded-md font-semibold transition-colors hover:bg-teal-50 dark:text-teal-300 dark:hover:bg-teal-400 dark:hover:bg-opacity-20"
+            className="w-fit py-3 px-4 flex items-center gap-2 text-blue-500 rounded-md font-semibold transition-colors hover:bg-blue-50 dark:text-pink dark:hover:bg-pink/10 dark:hover:bg-opacity-20"
           >
             <PiGithubLogoFill size={16} />
             @renatomarquesteles
@@ -30,7 +30,7 @@ export function Socials() {
           <a
             href="https://www.linkedin.com/in/renato-marques-teles/"
             target="_blank"
-            className="w-fit py-3 px-4 flex items-center gap-2 text-teal-700 rounded-md font-semibold transition-colors hover:bg-teal-50 dark:text-teal-300 dark:hover:bg-teal-400 dark:hover:bg-opacity-20"
+            className="w-fit py-3 px-4 flex items-center gap-2 text-blue-500 rounded-md font-semibold transition-colors hover:bg-blue-50 dark:text-pink dark:hover:bg-pink/10 dark:hover:bg-opacity-20"
           >
             <FaLinkedin size={16} />
             /in/renato-marques-teles
@@ -39,7 +39,7 @@ export function Socials() {
           <div className="flex gap-3 items-center">
             <a
               href="mailto:renatomarquesteles@gmail.com"
-              className="w-fit py-3 px-4 flex items-center gap-2 text-teal-700 rounded-md font-semibold transition-colors hover:bg-teal-50 dark:text-teal-300 dark:hover:bg-teal-400 dark:hover:bg-opacity-20"
+              className="w-fit py-3 px-4 flex items-center gap-2 text-blue-500 rounded-md font-semibold transition-colors hover:bg-blue-50 dark:text-pink dark:hover:bg-pink/10 dark:hover:bg-opacity-20"
             >
               <PiEnvelope size={16} />
               renatomarquesteles@gmail.com

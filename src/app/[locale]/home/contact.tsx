@@ -22,7 +22,7 @@ export function Contact() {
         <div className="w-fit mx-auto">
           <a
             href="mailto:renatomarquesteles@gmail.com"
-            className="w-full my-4 mx-auto py-[10px] px-5 rounded-md bg-teal-700 text-white flex items-center gap-3 font-semibold transition-colors hover:bg-teal-800 dark:bg-teal-300 dark:hover:bg-teal-400 dark:text-slate"
+            className="w-full my-4 mx-auto py-[10px] px-5 rounded-md bg-blue-500 text-white flex items-center gap-3 font-semibold transition-colors hover:bg-blue-600 dark:bg-pink dark:hover:bg-pink/80 dark:text-slate"
           >
             <BsEnvelopeFill size={16} />
             {t('emailButton')}
@@ -30,7 +30,7 @@ export function Contact() {
           <a
             href="https://wa.me/5516992921771"
             target="_blank"
-            className="w-fit my-4 mx-auto py-[10px] px-5 rounded-md bg-teal-700 text-white flex items-center gap-3 font-semibold transition-colors hover:bg-teal-800 dark:bg-teal-300 dark:hover:bg-teal-400 dark:text-slate"
+            className="w-fit my-4 mx-auto py-[10px] px-5 rounded-md bg-blue-500 text-white flex items-center gap-3 font-semibold transition-colors hover:bg-blue-600 dark:bg-pink dark:hover:bg-pink/80 dark:text-slate"
           >
             <PiWhatsappLogoFill size={16} />
             {t('whatsappButton')}

@@ -1,6 +1,6 @@
 {
   "Layout": {
-    "footer": "© 2024 Renato Marques Teles. All Rights Reserved."
+    "footer": "© 2025 Renato Marques Teles. All Rights Reserved."
   },
   "Header": {
     "projects": "Projects",
@@ -9,7 +9,7 @@
     "viewSource": "View Source"
   },
   "Info": {
-    "hello": "Hello, I'm a software engineer based in Brazil!",
+    "hello": "👋 Hello, I'm a software engineer based in Brazil!",
     "profession": "JavaScript Engineer",
     "avatarAlt": "Picture of the author"
   },
@@ -28,10 +28,6 @@
     "ignite": "Completed the Ignite React bootcamp program by Rocketseat.",
     "freelance": "Working as a freelancer",
     "toPresent": "to present"
-  },
-  "Interests": {
-    "title": "I ♥",
-    "description": "When I'm not coding, I like to hang out with my friends, go to the gym, play soccer, watch TV shows and movies, and play video games."
   },
   "Socials": {
     "title": "My socials",

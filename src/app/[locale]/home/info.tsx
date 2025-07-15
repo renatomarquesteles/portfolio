@@ -12,7 +12,7 @@ export function Info() {
   return (
     <header className="my-8 px-8 md:px-0">
       <MotionDiv delay={0.1}>
-        <div className="bg-white bg-opacity-30 my-6 p-3 rounded-lg dark:bg-gray-400 dark:bg-opacity-30">
+        <div className="bg-gray-200 bg-opacity-30 my-6 p-3 rounded-lg dark:bg-gray-400 dark:bg-opacity-30">
           <p className="text-center text-slate dark:text-white dark:text-opacity-90">
             {t('hello')}
           </p>

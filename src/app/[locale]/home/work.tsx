@@ -40,7 +40,7 @@ export function Work() {
 
         <Link
           href="/projects"
-          className="w-fit my-4 mx-auto py-[10px] px-5 rounded-md bg-teal-700 text-white flex items-baseline gap-3 font-semibold transition-colors hover:bg-teal-800 dark:bg-teal-300 dark:hover:bg-teal-400 dark:text-slate"
+          className="w-fit my-4 mx-auto py-[10px] px-5 rounded-md bg-blue-500 text-white flex items-baseline gap-3 font-semibold transition-colors hover:bg-blue-600 dark:bg-pink dark:hover:bg-pink/80 dark:text-slate"
         >
           {t('button')}
           <PiCaretRightBold size={12} />
