@@ -34,7 +34,6 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['var(--font-inter)', 'sans-serif'],
-        'm-plus-rounded-1c': ['var(--font-m-plus-rounded-1c)', 'sans-serif'],
         'open-sans': ['var(--font-open-sans)', 'sans-serif'],
       },
     },

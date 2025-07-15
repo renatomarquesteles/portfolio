@@ -20,7 +20,7 @@ export function Info() {
 
         <div className="flex justify-between flex-wrap gap-3">
           <div className="text-slate text-opacity-90 dark:text-white dark:text-opacity-90">
-            <h1 className="font-bold text-[34px] font-m-plus-rounded-1c tracking-tighter">
+            <h1 className="font-bold text-[34px] font-open-sans tracking-tighter">
               Renato Marques Teles
             </h1>
             <p className="text-sm">

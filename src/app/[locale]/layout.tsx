@@ -1,7 +1,7 @@
 import '@/styles/global.css'
 
 import type { Metadata } from 'next'
-import { Inter, M_PLUS_Rounded_1c, Open_Sans } from 'next/font/google'
+import { Inter, Open_Sans } from 'next/font/google'
 import { NextIntlClientProvider } from 'next-intl'
 import { notFound } from 'next/navigation'
 
@@ -22,13 +22,6 @@ const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-inter',
-})
-
-const mPlusRounded1c = M_PLUS_Rounded_1c({
-  weight: ['700', '800'],
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-m-plus-rounded-1c',
 })
 
 const openSans = Open_Sans({
@@ -55,10 +48,7 @@ export default async function RootLayout({
   }
 
   return (
-    <html
-      lang={locale}
-      className={`${inter.variable} ${mPlusRounded1c.variable} ${openSans.variable}`}
-    >
+    <html lang={locale} className={`${inter.variable} ${openSans.variable}`}>
       <body className="bg-beige dark:bg-gray-900">
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider>
