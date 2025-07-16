@@ -52,10 +52,9 @@
     "vexUIDescription": "Biblioteca de UI com componentes React seguindo o Design System do VExpenses."
   },
   "SideProjects": {
-    "title": "Side-projects",
-    "frontend": "Front-end",
-    "mobile": "Mobile",
-    "backend": "Back-end"
+    "frontend": "Projetos Front-end",
+    "mobile": "Aplicativos Mobile",
+    "backend": "APIs - Back-end"
   },
   "FrontEnd": {
     "coffee": "Coffee Delivery",

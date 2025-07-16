@@ -52,7 +52,6 @@
     "vexUIDescription": "A React UI components library following the VExpenses Design System."
   },
   "SideProjects": {
-    "title": "Side-projects",
     "frontend": "Front-end",
     "mobile": "Mobile",
     "backend": "Back-end"

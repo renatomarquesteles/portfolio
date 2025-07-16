@@ -13,10 +13,6 @@ export function SideProjects() {
 
   return (
     <section>
-      <MotionDiv delay={0.2}>
-        <SectionTitle>{t('title')}</SectionTitle>
-      </MotionDiv>
-
       <MotionDiv delay={0.3}>
         <SectionTitle>{t('frontend')}</SectionTitle>
       </MotionDiv>
