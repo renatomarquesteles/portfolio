@@ -10,13 +10,13 @@
   },
   "Info": {
     "hello": "👋 Hello, I'm a software engineer based in Brazil!",
-    "profession": "JavaScript Software Engineer",
+    "profession": "Frontend Software Engineer",
     "avatarAlt": "Picture of the author"
   },
   "Work": {
     "title": "Work",
-    "description": "I'm passionate about building beautiful and responsive interfaces and amazing user experiences. I've worked with various clients and collaborated with cross-functional teams to deliver successful projects. My last big project was to fully develop and deploy the interface of a credit card related platform for <vexLink>VExpenses</vexLink>, a startup focused on managing corporate expense reimbursements. Also, my <ghLink>GitHub</ghLink> profile contains more than 100 repositories of side projects I have built along the way.",
-    "button": "My portfolio"
+    "description": "Frontend software engineer with a focus on React, specializing in creating modern, responsive, and functional interfaces. I've collaborated with cross-functional teams to deliver effective solutions, including the development of a corporate credit card platform interface for <vexLink>VExpenses</vexLink>, a brazilian startup focused on managing corporate expense reimbursements. I also have more than 100 repositories of my own projects and study on my <ghLink>GitHub</ghLink>, reflecting initiative, technical mastery, and continuous learning dedication.",
+    "button": "My projects"
   },
   "Bio": {
     "title": "Bio",
