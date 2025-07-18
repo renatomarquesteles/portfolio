@@ -51,24 +51,24 @@ export function ProjectCard({
             variant="secondary"
             className="px-2 leading-tight shadow rounded-sm border-none"
           >
-            <span className="text-[10px]">{item}</span>
+            <span className="text-[12px] sm:text-[10px]">{item}</span>
           </Badge>
         ))}
       </div>
-      <div className="flex gap-1 mt-5">
+      <div className="flex flex-wrap gap-4 mt-5 justify-center sm:justify-start sm:gap-1">
         {websiteUrl && (
           <a href={websiteUrl} target="_blank">
-            <Badge className="px-2 py-1 rounded-sm border-none">
-              <Globe className="w-3 h-3 mr-1 inline-block" />
-              <span className="text-[10px]">Website</span>
+            <Badge className="px-3 py-2 sm:px-2 sm:py-1 rounded-sm border-none">
+              <Globe className="w-4 h-4 mr-1 inline-block" />
+              <span className="text-[14px] sm:text-[10px]">Website</span>
             </Badge>
           </a>
         )}
         {sourceCodeUrl && (
           <a href={sourceCodeUrl} target="_blank">
-            <Badge className="px-2 py-1 rounded-sm border-none">
-              <Code className="w-3 h-3 mr-1 inline-block" />
-              <span className="text-[10px]">Source Code</span>
+            <Badge className="px-3 py-2 sm:px-2 sm:py-1 rounded-sm border-none">
+              <Code className="w-4 h-4 mr-1 inline-block" />
+              <span className="text-[14px] sm:text-[10px]">Source Code</span>
             </Badge>
           </a>
         )}

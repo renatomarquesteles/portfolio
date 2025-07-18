@@ -19,7 +19,7 @@ export default function Projects() {
         proximity={900}
         inactiveZone={0.01}
         borderWidth={2}
-        className="rounded-lg opacity-80"
+        className="rounded-lg opacity-80 hidden sm:block"
       />
       <ProfessionalWorks />
       <SideProjects />

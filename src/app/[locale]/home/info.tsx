@@ -22,18 +22,20 @@ export function Info() {
 
         <div className="flex justify-between flex-wrap gap-3">
           <div className="text-slate text-opacity-90 dark:text-white dark:text-opacity-90">
-            <h1 className="font-bold text-[34px] font-open-sans tracking-tighter">
+            <h1 className="font-bold text-[34px] font-open-sans tracking-tighter text-center sm:text-left">
               Renato Marques Teles
             </h1>
-            <p className="text-sm">{t('profession')}</p>
-            <div className="flex gap-3 mt-2">
+            <p className="text-sm text-center sm:text-left">
+              {t('profession')}
+            </p>
+            <div className="flex gap-2 mt-2 sm:gap-3">
               <Badge variant="react">React</Badge>
               <Badge variant="reactNative">React Native</Badge>
               <Badge variant="node">Node.js</Badge>
             </div>
           </div>
 
-          <div className="relative flex items-center justify-center w-[108px] h-[108px] rounded-full overflow-hidden">
+          <div className="relative flex items-center justify-center w-[108px] h-[108px] rounded-full overflow-hidden mx-auto">
             <div className="absolute inset-0 flex items-center justify-center z-0">
               <GlowEffect
                 colors={['#0894FF', '#C959DD', '#FF2E54', '#FF9004']}

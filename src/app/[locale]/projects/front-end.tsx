@@ -10,7 +10,7 @@ export function FrontEnd() {
   const t = useTranslations('FrontEnd')
 
   return (
-    <div className="grid grid-cols-2 gap-4 mx-auto w-full">
+    <div className="grid grid-cols-1 gap-4 mx-auto w-full sm:grid-cols-2">
       <ProjectCard
         image={coffeDeliveryImg}
         alt={t('coffeeAlt')}

@@ -20,7 +20,7 @@ export function Web3() {
         <SectionTitle>{t('title')}</SectionTitle>
       </MotionDiv>
 
-      <div className="grid grid-cols-2 gap-4 mx-auto w-full">
+      <div className="grid grid-cols-1 gap-4 mx-auto w-full sm:grid-cols-2">
         <ProjectCard
           image={paperhandsImg}
           alt={t('paperhandsAlt')}
