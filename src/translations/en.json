@@ -68,7 +68,7 @@
     "igniteUIDescription": "Design System packages built and release on NPM to be installed and used in other projects.",
     "uploadAI": "upload.ai",
     "uploadAIAlt": "A light background with the logo upload.ai on the top left and an empty text box under it.",
-    "uploadAIDescription": "AI app to generate titles and descriptions for YouTube videos."
+    "uploadAIDescription": "AI integrated app to generate titles and descriptions for YouTube videos."
   },
   "Mobile": {
     "restaurantDelivery": "Restaurant Delivery",
