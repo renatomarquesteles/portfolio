@@ -24,7 +24,7 @@ export function ProjectCard({
 }: ProjectCardProps) {
   return (
     <WobbleCard
-      containerClassName="w-full border hover:shadow-lg"
+      containerClassName="w-full border hover:shadow-lg dark:bg-[#2b2d31]"
       className="flex flex-col"
     >
       <Image
@@ -36,8 +36,10 @@ export function ProjectCard({
         className="w-full rounded-xl mb-2 border"
       />
       <div className="w-full flex-1">
-        <h3 className="font-bold text-slate/90 font-inter">{title}</h3>
-        <p className="text-sm text-gray-400 leading-tight mt-1">
+        <h3 className="font-bold text-slate/90 font-inter dark:text-gray-100">
+          {title}
+        </h3>
+        <p className="text-sm text-gray-400 leading-tight mt-1 dark:text-gray-300">
           {description}
         </p>
       </div>
