@@ -19,10 +19,10 @@ export function Contact() {
           {t('description')}
         </p>
 
-        <div className="w-fit mx-auto">
+        <div className="w-fit mx-auto sm:flex sm:gap-4">
           <a
             href="mailto:renatomarquesteles@gmail.com"
-            className="w-full my-4 mx-auto py-[10px] px-5 rounded-md bg-blue-500 text-white flex items-center gap-3 font-semibold transition-colors hover:bg-blue-600 dark:bg-pink dark:hover:bg-pink/80 dark:text-slate"
+            className="my-4 mx-auto py-[10px] px-5 rounded-md bg-blue-500 text-white flex items-center gap-3 font-semibold transition-colors hover:bg-blue-600 dark:bg-pink dark:hover:bg-pink/80 dark:text-slate"
           >
             <BsEnvelopeFill size={16} />
             {t('emailButton')}

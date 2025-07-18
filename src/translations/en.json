@@ -33,6 +33,7 @@
     "title": "My socials",
     "copy": "COPY",
     "copied": "COPIED!",
+    "copyTooltip": "Copy email to clipboard",
     "thumbnailAlt": "A YouTube thumbnail written \"Renato Marques, a software engineer\"",
     "youtubeDescription": "My YouTube channel (>2k views)"
   },
