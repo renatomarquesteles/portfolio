@@ -17,39 +17,43 @@ export function ProfessionalWorks() {
         <SectionTitle>{t('title')}</SectionTitle>
 
         <div className="grid grid-cols-1 gap-4 mx-auto w-full sm:grid-cols-2">
-          <ProjectCard
-            image={vexCardsImg}
-            alt={t('vexCardsAlt')}
-            title={t('vexCards')}
-            description={t('vexCardsDescription')}
-            tags={[
-              'React.js',
-              'TypeScript',
-              'HTML',
-              'CSS',
-              'Git',
-              'Styled-components',
-              'Scrum',
-              'i18n',
-            ]}
-            websiteUrl="https://vexpenses.com.br/cartao-corporativo-e-cartao-empresarial"
-          />
-          <ProjectCard
-            image={vexUIImg}
-            alt={t('vexUIAlt')}
-            title={t('vexUI')}
-            description={t('vexUIDescription')}
-            tags={[
-              'React.js',
-              'TypeScript',
-              'HTML',
-              'CSS',
-              'Git',
-              'Styled-components',
-              'Storybook',
-            ]}
-            websiteUrl="https://focused-snyder-cf8a6e.netlify.app/"
-          />
+          <MotionDiv delay={0.1}>
+            <ProjectCard
+              image={vexCardsImg}
+              alt={t('vexCardsAlt')}
+              title={t('vexCards')}
+              description={t('vexCardsDescription')}
+              tags={[
+                'React.js',
+                'TypeScript',
+                'HTML',
+                'CSS',
+                'Git',
+                'Styled-components',
+                'Scrum',
+                'i18n',
+              ]}
+              websiteUrl="https://vexpenses.com.br/cartao-corporativo-e-cartao-empresarial"
+            />
+          </MotionDiv>
+          <MotionDiv delay={0.2}>
+            <ProjectCard
+              image={vexUIImg}
+              alt={t('vexUIAlt')}
+              title={t('vexUI')}
+              description={t('vexUIDescription')}
+              tags={[
+                'React.js',
+                'TypeScript',
+                'HTML',
+                'CSS',
+                'Git',
+                'Styled-components',
+                'Storybook',
+              ]}
+              websiteUrl="https://focused-snyder-cf8a6e.netlify.app/"
+            />
+          </MotionDiv>
         </div>
       </MotionDiv>
     </section>

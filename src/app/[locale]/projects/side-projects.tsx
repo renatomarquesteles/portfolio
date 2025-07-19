@@ -18,15 +18,15 @@ export function SideProjects() {
       </MotionDiv>
       <FrontEnd />
 
-      <MotionDiv delay={0.3}>
+      <MotionDiv delay={0.8}>
         <SectionTitle>{t('mobile')}</SectionTitle>
+        <Mobile />
       </MotionDiv>
-      <Mobile />
 
-      <MotionDiv delay={0.3}>
+      <MotionDiv delay={1}>
         <SectionTitle>{t('backend')}</SectionTitle>
+        <BackEnd />
       </MotionDiv>
-      <BackEnd />
     </section>
   )
 }
