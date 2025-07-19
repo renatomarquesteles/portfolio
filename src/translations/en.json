@@ -16,7 +16,8 @@
   "Work": {
     "title": "Work",
     "description": "Frontend software engineer with a focus on React, specializing in creating modern, responsive, and functional interfaces. I've collaborated with cross-functional teams to deliver effective solutions, including the development of a corporate credit card platform interface for <vexLink>VExpenses</vexLink>, a brazilian startup focused on managing corporate expense reimbursements. I also have more than 100 repositories of my own projects and study on my <ghLink>GitHub</ghLink>, reflecting initiative, technical mastery, and continuous learning dedication.",
-    "button": "My projects"
+    "button": "My projects",
+    "cvButton": "View CV"
   },
   "Bio": {
     "title": "Bio",

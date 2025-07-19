@@ -16,7 +16,8 @@
   "Work": {
     "title": "Sobre",
     "description": "Desenvolvedor front-end com foco em React, especializado em criar interfaces modernas, responsivas e funcionais. Já colaborei com equipes ágeis e multifuncionais para entregar soluções eficazes, incluindo o desenvolvimento da interface de uma plataforma de cartões corporativos para o <vexLink>VExpenses</vexLink>. Tenho disponíveis mais de 100 repositórios de projetos próprios e de estudo no meu <ghLink>GitHub</ghLink>, refletindo iniciativa, domínio técnico e dedicação contínua ao aprendizado.",
-    "button": "Meus projetos"
+    "button": "Meus projetos",
+    "cvButton": "Ver CV"
   },
   "Bio": {
     "title": "Bio",

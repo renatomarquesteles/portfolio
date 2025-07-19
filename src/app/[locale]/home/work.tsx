@@ -2,7 +2,10 @@
 
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
-import { PiCaretRightBold } from 'react-icons/pi'
+import { HiDocumentText } from 'react-icons/hi'
+import { Arrow } from '@radix-ui/react-tooltip'
+import { useParams } from 'next/navigation'
+import { ArrowRight } from 'lucide-react'
 
 import { SectionTitle } from '@/components/section-title'
 import { MotionDiv } from '@/components/motion-div'
@@ -11,10 +14,13 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from '@/components/ui/tooltip'
-import { Arrow } from '@radix-ui/react-tooltip'
 
 export function Work() {
   const t = useTranslations('Work')
+  const params = useParams()
+  const locale = params.locale as string
+
+  const cvFile = locale === 'pt-BR' ? '/cv-ptbr.pdf' : '/cv-en.pdf'
 
   return (
     <section className="mb-6">
@@ -60,13 +66,24 @@ export function Work() {
           })}
         </p>
 
-        <Link
-          href="/projects"
-          className="w-fit my-4 mx-auto py-[10px] px-5 rounded-md bg-blue-500 text-white flex items-baseline gap-3 font-semibold transition-colors hover:bg-blue-600 dark:bg-pink dark:hover:bg-pink/80 dark:text-slate"
-        >
-          {t('button')}
-          <PiCaretRightBold size={12} />
-        </Link>
+        <div className="w-fit mx-auto sm:flex sm:gap-4">
+          <a
+            href={cvFile}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="justify-between my-4 py-[10px] px-5 rounded-md bg-blue-500 text-white flex items-center gap-3 font-semibold transition-colors hover:bg-blue-600 dark:bg-pink dark:hover:bg-pink/80 dark:text-slate"
+          >
+            {t('cvButton')}
+            <HiDocumentText size={16} />
+          </a>
+          <Link
+            href="/projects"
+            className="justify-between my-4 py-[10px] px-5 rounded-md bg-blue-500 text-white flex items-center gap-3 font-semibold transition-colors hover:bg-blue-600 dark:bg-pink dark:hover:bg-pink/80 dark:text-slate"
+          >
+            {t('button')}
+            <ArrowRight size={15} absoluteStrokeWidth />
+          </Link>
+        </div>
       </MotionDiv>
     </section>
   )
