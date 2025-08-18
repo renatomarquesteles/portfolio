@@ -51,18 +51,20 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} className={`${inter.variable} ${openSans.variable}`}>
-      <body className="bg-gray-100 dark:bg-gray-950">
+      <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider>
             <TooltipProvider delayDuration={0}>
+              <Background />
               <Header />
 
-              <Background />
-              <div className="max-w-2xl mx-auto bg-white dark:bg-gray-900 relative z-10 px-12 py-1 mt-24 rounded-lg">
-                {children}
-              </div>
+              <main className="min-h-screen flex justify-center items-center flex-col pointer-events-none">
+                <div className="max-w-2xl bg-white opacity-75 dark:bg-gray-900 relative z-10 px-12 py-1 mt-24 rounded-lg pointer-events-auto">
+                  {children}
+                </div>
 
-              <Footer />
+                <Footer />
+              </main>
             </TooltipProvider>
           </ThemeProvider>
         </NextIntlClientProvider>
