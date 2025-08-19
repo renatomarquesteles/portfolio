@@ -14,11 +14,11 @@ import {
   TooltipContent,
 } from '@/components/ui/tooltip'
 
-export function Socials() {
+export default function Socials() {
   const t = useTranslations('Socials')
 
   return (
-    <section className="mb-6">
+    <section id="socials" className="mb-6 scroll-mt-16">
       <MotionDiv delay={0.5}>
         <SectionTitle>{t('title')}</SectionTitle>
 

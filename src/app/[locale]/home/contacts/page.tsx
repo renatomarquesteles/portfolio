@@ -7,11 +7,11 @@ import { useTranslations } from 'next-intl'
 import { SectionTitle } from '@/components/section-title'
 import { MotionDiv } from '@/components/motion-div'
 
-export function Contact() {
+export default function Contact() {
   const t = useTranslations('Contact')
 
   return (
-    <section className="mb-6">
+    <section id="contact" className="mb-6 scroll-mt-16">
       <MotionDiv delay={0.6}>
         <SectionTitle>{t('title')}</SectionTitle>
 

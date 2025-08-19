@@ -6,11 +6,11 @@ import { MotionDiv } from '@/components/motion-div'
 import { SectionTitle } from '@/components/section-title'
 import { Badge } from '@/components/ui/badge'
 
-export function Bio() {
+export default function Bio() {
   const t = useTranslations('Bio')
 
   return (
-    <section className="mb-6">
+    <section id="bio" className="mb-6 scroll-mt-16">
       <MotionDiv delay={0.3}>
         <SectionTitle>{t('title')}</SectionTitle>
 

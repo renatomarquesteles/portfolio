@@ -56,12 +56,10 @@ export default async function RootLayout({
           <ThemeProvider>
             <TooltipProvider delayDuration={0}>
               <Background />
-              <Header />
+              {/* <Header /> */}
 
-              <main className="min-h-screen flex justify-center items-center flex-col pointer-events-none">
-                <div className="max-w-2xl max-h-[80vh] bg-white opacity-75 dark:bg-gray-900 relative z-10 px-12 py-1 mt-12 rounded-lg pointer-events-auto">
-                  {children}
-                </div>
+              <main className="h-screen flex justify-center items-center pointer-events-none">
+                {children}
               </main>
 
               <NavDock />

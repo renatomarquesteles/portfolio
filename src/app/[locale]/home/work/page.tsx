@@ -15,7 +15,7 @@ import {
   TooltipTrigger,
 } from '@/components/ui/tooltip'
 
-export function Work() {
+export default function Work() {
   const t = useTranslations('Work')
   const params = useParams()
   const locale = params.locale as string
@@ -23,7 +23,7 @@ export function Work() {
   const cvFile = locale === 'pt-BR' ? '/cv-ptbr.pdf' : '/cv-en.pdf'
 
   return (
-    <section className="mb-6">
+    <section id="work" className="mb-6 scroll-mt-16">
       <MotionDiv delay={0.2}>
         <SectionTitle>{t('title')}</SectionTitle>
 

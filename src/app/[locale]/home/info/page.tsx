@@ -8,11 +8,11 @@ import { MotionDiv } from '@/components/motion-div'
 import { Badge } from '@/components/ui/badge'
 import { GlowEffect } from '@/components/ui/motion-primitives/glow-effect'
 
-export function Info() {
+export default function Info() {
   const t = useTranslations('Info')
 
   return (
-    <header className="my-8 px-8 md:px-0">
+    <header id="info" className="my-8 px-8 md:px-0 scroll-mt-16">
       <MotionDiv delay={0.1}>
         <div className="bg-gray-200 bg-opacity-30 my-6 p-3 rounded-lg dark:bg-gray-400 dark:bg-opacity-30">
           <p className="text-center text-slate dark:text-white dark:text-opacity-90">
