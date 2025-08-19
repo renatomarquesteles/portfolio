@@ -15,3 +15,9 @@
 `npm i framer-motion`
 
 `npm install next-intl@3.0.0-beta.10`
+
+`npm i three`
+`npm i -D @types/three`
+`npm i three-stdlib`
+
+`npx shadcn@latest add "https://magicui.design/r/dock"`
