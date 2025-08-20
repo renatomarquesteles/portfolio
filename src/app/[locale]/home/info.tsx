@@ -8,7 +8,7 @@ import { MotionDiv } from '@/components/motion-div'
 import { Badge } from '@/components/ui/badge'
 import { GlowEffect } from '@/components/ui/motion-primitives/glow-effect'
 
-export default function Info() {
+export function Info() {
   const t = useTranslations('Info')
 
   return (

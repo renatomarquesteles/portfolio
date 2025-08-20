@@ -6,7 +6,7 @@ import { MotionDiv } from '@/components/motion-div'
 import { SectionTitle } from '@/components/section-title'
 import { Badge } from '@/components/ui/badge'
 
-export default function Bio() {
+export function Bio() {
   const t = useTranslations('Bio')
 
   return (

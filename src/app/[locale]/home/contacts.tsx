@@ -7,7 +7,7 @@ import { useTranslations } from 'next-intl'
 import { SectionTitle } from '@/components/section-title'
 import { MotionDiv } from '@/components/motion-div'
 
-export default function Contact() {
+export function Contact() {
   const t = useTranslations('Contact')
 
   return (

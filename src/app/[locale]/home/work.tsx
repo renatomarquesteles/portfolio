@@ -15,7 +15,7 @@ import {
   TooltipTrigger,
 } from '@/components/ui/tooltip'
 
-export default function Work() {
+export function Work() {
   const t = useTranslations('Work')
   const params = useParams()
   const locale = params.locale as string

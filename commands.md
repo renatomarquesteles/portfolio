@@ -21,3 +21,5 @@
 `npm i three-stdlib`
 
 `npx shadcn@latest add "https://magicui.design/r/dock"`
+
+`npm i @radix-ui/react-tabs`

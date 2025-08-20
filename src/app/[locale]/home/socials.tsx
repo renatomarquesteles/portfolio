@@ -14,7 +14,7 @@ import {
   TooltipContent,
 } from '@/components/ui/tooltip'
 
-export default function Socials() {
+export function Socials() {
   const t = useTranslations('Socials')
 
   return (
