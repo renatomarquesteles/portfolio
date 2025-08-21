@@ -56,7 +56,7 @@ export default async function RootLayout({
           <ThemeProvider>
             <TooltipProvider delayDuration={0}>
               <Background />
-              {/* <Header /> */}
+              <Header />
 
               <main className="h-screen flex justify-center items-center pointer-events-none">
                 {children}
