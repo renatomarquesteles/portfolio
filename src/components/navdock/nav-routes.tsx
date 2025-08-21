@@ -16,9 +16,9 @@ export function NavRoutes() {
       <DockIcon>
         <DockLink
           title="Home"
-          href="/home/info"
+          href="/"
           icon={<House />}
-          isActive={currentPath.startsWith('/home')}
+          isActive={currentPath === ''}
         />
       </DockIcon>
       <DockIcon>
