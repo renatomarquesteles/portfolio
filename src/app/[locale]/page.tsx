@@ -8,6 +8,7 @@ import { Work } from './home/work'
 import { Contact } from './home/contacts'
 import { Bio } from './home/bio'
 import { Socials } from './home/socials'
+import { TabsListItems } from './home/tabs-list-items'
 
 export const metadata: Metadata = {
   title: "Home | Renato's Portfolio",
@@ -28,12 +29,8 @@ export default function HomeLayout() {
         />
 
         <Tabs defaultValue="info">
-          <TabsList>
-            <TabsTrigger value="info">Info</TabsTrigger>
-            <TabsTrigger value="work">Work</TabsTrigger>
-            <TabsTrigger value="bio">Bio</TabsTrigger>
-            <TabsTrigger value="socials">Socials</TabsTrigger>
-            <TabsTrigger value="contact">Contact</TabsTrigger>
+          <TabsList className="mx-auto opacity-80">
+            <TabsListItems />
           </TabsList>
           <div className="max-w-[800px] w-full max-h-[70vh] px-8 overflow-y-auto overflow-x-hidden">
             <TabsContent value="info">

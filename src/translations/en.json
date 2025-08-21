@@ -5,6 +5,13 @@
     "about": "About",
     "viewSource": "View Source"
   },
+  "HomeTabs": {
+    "info": "Home",
+    "work": "About",
+    "bio": "Bio",
+    "socials": "Socials",
+    "contact": "Contact"
+  },
   "Info": {
     "hello": "👋 Hello, I'm a software engineer based in Brazil!",
     "profession": "Frontend Software Engineer",

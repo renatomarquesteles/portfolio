@@ -5,6 +5,13 @@
     "about": "Sobre",
     "viewSource": "Ver Código-fonte"
   },
+  "HomeTabs": {
+    "info": "Home",
+    "work": "Sobre",
+    "bio": "Bio",
+    "socials": "Links",
+    "contact": "Contato"
+  },
   "Info": {
     "hello": "👋 Olá, construo interfaces que conectam ideias e pessoas!",
     "profession": "Dev Frontend / Fullstack JavaScript",
