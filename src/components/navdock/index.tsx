@@ -4,6 +4,7 @@ import { Separator } from '../ui/separator'
 import { Dock, DockIcon } from './dock'
 import { DockLink } from './dock-link'
 import { NavRoutes } from './nav-routes'
+import { EmailDockButton } from './email-dock-button'
 
 export function NavDock() {
   return (
@@ -29,6 +30,9 @@ export function NavDock() {
             href="https://www.linkedin.com/in/renato-marques-teles/"
             icon={<FaLinkedinIn size={20} />}
           />
+        </DockIcon>
+        <DockIcon>
+          <EmailDockButton />
         </DockIcon>
       </Dock>
     </div>

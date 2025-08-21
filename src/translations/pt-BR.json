@@ -10,7 +10,9 @@
     "work": "Sobre",
     "bio": "Bio",
     "socials": "Links",
-    "contact": "Contato"
+    "contact": "Contato",
+    "copyEmail": "Copiar email para a área de transferência",
+    "copied": "Copiado!"
   },
   "Info": {
     "hello": "👋 Olá, construo interfaces que conectam ideias e pessoas!",

@@ -10,7 +10,9 @@
     "work": "About",
     "bio": "Bio",
     "socials": "Socials",
-    "contact": "Contact"
+    "contact": "Contact",
+    "copyEmail": "Copy email to clipboard",
+    "copied": "Copied!"
   },
   "Info": {
     "hello": "👋 Hello, I'm a software engineer based in Brazil!",
