@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 
 import { GlowingEffect } from '@/components/ui/glowing-effect'
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
+import { Tabs, TabsContent, TabsList } from '@/components/ui/tabs'
 
 import { Info } from './home/info'
 import { Work } from './home/work'
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "Home | Renato's Portfolio",
 }
 
-export default function HomeLayout() {
+export default function Home() {
   return (
     <>
       <div className="bg-white/75 dark:bg-gray-900/75 relative z-10 px-8 py-8 my-20 rounded-lg pointer-events-auto backdrop-blur">

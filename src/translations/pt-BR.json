@@ -11,8 +11,14 @@
     "bio": "Bio",
     "socials": "Links",
     "contact": "Contato",
-    "copyEmail": "Copiar email para a área de transferência",
-    "copied": "Copiado!"
+    "copyEmail": "Copiar email para a área de transferência"
+  },
+  "ProjectsTabs": {
+    "professional-works": "Experiência Profissional",
+    "frontend": "Front-end",
+    "mobile": "Mobile",
+    "backend": "Back-end",
+    "web3": "Na Web 3.0"
   },
   "Info": {
     "hello": "👋 Olá, construo interfaces que conectam ideias e pessoas!",

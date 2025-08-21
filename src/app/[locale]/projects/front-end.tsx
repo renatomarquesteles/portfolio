@@ -1,3 +1,5 @@
+'use client'
+
 import { useTranslations } from 'next-intl'
 
 import coffeDeliveryImg from '@/assets/coffee-delivery.png'

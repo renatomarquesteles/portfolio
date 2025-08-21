@@ -11,8 +11,14 @@
     "bio": "Bio",
     "socials": "Socials",
     "contact": "Contact",
-    "copyEmail": "Copy email to clipboard",
-    "copied": "Copied!"
+    "copyEmail": "Copy email to clipboard"
+  },
+  "ProjectsTabs": {
+    "professional-works": "Professional Works",
+    "frontend": "Front-end",
+    "mobile": "Mobile",
+    "backend": "Back-end",
+    "web3": "On the Web 3.0"
   },
   "Info": {
     "hello": "👋 Hello, I'm a software engineer based in Brazil!",
