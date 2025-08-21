@@ -18,7 +18,7 @@ export function NavRoutes() {
           title="Home"
           href="/"
           icon={<House />}
-          isActive={currentPath === ''}
+          isActive={currentPath === '/'}
         />
       </DockIcon>
       <DockIcon>
